@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI SYSTEM "../schema/tei_ms_repertorium.dtd">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <!--Irina Kuzidova; Dilyana Radoslavova--><teiHeader><fileDesc><titleStmt><title>Rila Panegyrikon, 4/8 (61), Rila Monastrery, 1479.</title><author>Irina Kuzidova</author><author>Dilyana Radoslavova</author></titleStmt><publicationStmt><publisher>Institute of Literature</publisher><pubPlace>Sofia</pubPlace><date>2013.</date></publicationStmt><sourceDesc><p>Printed catalogues.</p></sourceDesc></fileDesc><profileDesc><langUsage><language ident="en">English</language><language ident="bg">Bulgarian</language></langUsage><textClass><keywords scheme="Repertorium"><list><item>Panegyrikon</item><item>Panegyrical works</item><item>Hagiography</item><item>Vladislav the Grammarian</item></list></keywords></textClass></profileDesc></teiHeader><text><body><msDesc><msIdentifier><msName type="general">Panegyrikon; </msName><msName type="individual">Rila Panegyrikon.</msName><country>Bulgaria,</country><settlement>Rila,</settlement><repository>Rila Monastrery,</repository><idno type="shelfmark">4/8 (61),</idno><idno type="catalogue">130.</idno><note><listBibl><bibl><ref>Своден каталог: 131; </ref><ref>Христова 1996: 64-109.
+                                </ref></bibl></listBibl></note></msIdentifier><physDesc><objectDesc form="codex"><supportDesc material="paper"><support><material>Paper.</material></support><extent>740 ff. approximately.</extent></supportDesc></objectDesc><decoDesc><p>The titles and the initials are in red. The small number of headpieces
+                            are coloured in gold, ochre, green, blue, red.</p></decoDesc></physDesc><scribeDesc xmlns="http://www.ilit.bas.bg/repertorium/ns/3.0"><scribe><name xmlns="http://www.tei-c.org/ns/1.0">Vladislav the Grammarian.</name><scriptDesc script="cyrs"><p xmlns="http://www.tei-c.org/ns/1.0">Middle calligraphic
+                                semi-uncial.</p></scriptDesc><scribeLang><orthography><p xmlns="http://www.tei-c.org/ns/1.0">Resava orthography with a lot
+                                    of diacritical signs.</p></orthography></scribeLang></scribe></scribeDesc><msContents><summary>The miscellany contains homilies of St. John Chrysostom, Cyril of
+                        Jerusalem, Atanasios of Alexandria, Gregory of Neo Caesarea, Basil of
+                        Seleucia, Simeon Metaphrastes, patriarch Germanos I, etc. Apart from that
+                        the Panegyrikon the MS contains interesting texts of Bulgarian and Balkan
+                        Slavic literacy, such as some works of Gregory Tsamblak (Enkomion on St.
+                        Demetrios of Thessaloniki and the Life of Stefan of Dečani), and works of
+                        patriarch Euthymios of Tărnovo (Enkomion on SS. Constantine and Helena,
+                        Enkomion on Kiriakia the Martyress, Letter to Nicodemos of Tismana, Letter
+                        to Cyprianos and Letter to Antymos, archbishop of Ugro-Walachia, the Life of
+                        St. John of Rila supplemented by the autograph of the so-called Rila story,
+                        describing the translation of the saint's relics from Tărnovo to Rila
+                        monastery. The Translatio contains a detailed account on the historical
+                        circumstances preceding the event: the reestablishment of Rila monastery,
+                        the battle of Čirmen (1371), the role of the widowed sultan wife Mariya
+                        Branković, etc. The Rila story is critically published by Христова 1996:
+                        165-177. Vladislav the Grammarian added yet another text about the Rila
+                        hermit - The life with a small enkomion on St. John of Rila by Demetrios
+                        Kantakouzenos. There are included two more vitae created in the 14th c. -
+                        Life of St. Gregory Sinaites and Life of St. Theodosios of Tărnovo by
+                        Patriarch Kallistos. Two texts are devoted to the holy brothers Cyril and
+                        Methodios - Life of St. Constantine-Cyril the Philosopher and the Enkomion
+                        on St. Cyril and St. Methodios. Among the text preserved in a sole copy is
+                        the Enkomion on St. Philothea Temniška by Joasaph of Bdin. Thanks to its
+                        specific contents the Panegyrikon is often described as a unique anthology
+                        of rare translations of Byzantine works and Old and Middle Bulgarian
+                        original texts.</summary></msContents><history><origin><origDate>1479.</origDate></origin></history><additional><listBibl><bibl><ref>Христова 1996: 64-109.</ref></bibl></listBibl></additional></msDesc></body></text></TEI>

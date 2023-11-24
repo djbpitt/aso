@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<meta
+    xmlns="http://exist-db.org/xquery/repo">
+    <description>Slovo Aso</description>
+    <author>David J. Birnbaum</author>
+    <website>http://www.obdurodon.org</website>
+    <status>stable</status>
+    <license>GNU-GPL</license>
+    <copyright>true</copyright>
+    <type>application</type>
+    <target>Slovo-Aso</target>
+    <prepare>pre-install.xq</prepare>
+    <finish/>
+</meta>

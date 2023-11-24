@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI SYSTEM "../schema/tei_ms_repertorium.dtd">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <!--Irina Kuzidova; Dilyana Radoslavova--><teiHeader><fileDesc><titleStmt><title>Rila Glagolitic folia (Paraenesis of Ephrem the Syrian), 24.4.15 (Срезневский
+                    62) and 24.4.17 (Срезневский 64), Russian National Library, Sankt Petersburg;
+                    and 3/6 (14), Rila Monastrery, 11th c. </title><author>Irina Kuzidova</author><author>Dilyana Radoslavova</author></titleStmt><publicationStmt><publisher>Institute of Literature</publisher><pubPlace>Sofia</pubPlace><date>2013.</date></publicationStmt><sourceDesc><p>Printed catalogues.</p></sourceDesc></fileDesc><profileDesc><langUsage><language ident="en">English</language><language ident="bg">Bulgarian</language><language ident="ru">Russian</language></langUsage><textClass><keywords scheme="Repertorium"><list><item>Ephrem the Syrian</item><item>Patristic works</item><item>Paraenesis</item></list></keywords></textClass></profileDesc></teiHeader><text><body><msDesc><msIdentifier><msName type="general">Paraenesis of Ephrem the Syrian;</msName><msName type="individual">Rila Glagolitic folia.</msName><country>Russia,</country><settlement>Sankt Petersburg,</settlement><repository>Russian National Library,</repository><idno type="shelfmark">24.4.15,</idno><idno type="catalogue">25,</idno><collection>Срезневский 62.</collection><note><bibl><ref>Шмидт 1984: 25.</ref></bibl></note><altIdentifier><country>Russia,</country><settlement>Sankt Petersburg,</settlement><repository>Russian National Library,</repository><idno type="shelfmark">24.4.17,</idno><idno type="catalogue">44,</idno><collection>Срезневский 64.</collection><note><bibl><ref>Шмидт 1984: 44.</ref></bibl></note></altIdentifier><altIdentifier><country>Bulgaria,</country><settlement>Rila,</settlement><repository>Rila Monastrery,</repository><idno type="shelfmark">3/6 (14),</idno><idno type="catalogue">2.</idno><note><bibl><ref>Своден каталог: 2.</ref></bibl></note></altIdentifier></msIdentifier><physDesc><objectDesc form="fragment"><supportDesc material="parch"><support><material>Parchment.</material></support></supportDesc><layoutDesc><layout columns="2">In 2 columns.</layout></layoutDesc></objectDesc></physDesc><scribeDesc xmlns="http://www.ilit.bas.bg/repertorium/ns/3.0"><scribe><name>Anonymous.</name><scriptDesc script="glag"><p>Round script; some titles and beginings are written in majuscule
+                                script and the rest of the text is written in munuscule script.</p></scriptDesc></scribe></scribeDesc><msContents><summary>Contains fragments of Ephrem the Syrian's Paraenesis in its oldest
+                        South Slavonic translation, as well as a parayer for rependance and
+                        confesion. Among the sermons of the Paraenesis, identified by I. Gošev, are:
+                        On the rependance; About destiny, love, and rependance; On the judgement,
+                        love, and dependance, About the regression to the pagan deeds; About the
+                        Holy Communion Bread and the Wine; On the Antichrist; About the love,
+                        baptism, confession, panegyrik of the Holy Cross and the Last judgement. See
+                            <ref>Gošev 1956</ref>. Some of the Rila fragments bear late inscriptions
+                        with nuema notation, accompanied by Cyrillic instructions, which are
+                        ascribed to Vladislav the Grammarian. </summary></msContents><history><origin><origDate>11th c.</origDate><p>The fact that the Rila Glagolitic folia were found in a miscellany of the
+                            Rila Monastery library does not prove the hypothesis that they were
+                            written there.</p></origin><provenance>The fragnments were discovered by V. Grigorovich, K. Ireček and J.
+                        Ivanov. The greater Glagolitic part was found in the binding of Adrianti
+                        Miscellany of Vladislav the Grammarian. It is not known where Grigorovich
+                        found the first to leaves. </provenance><acquisition>Two folia were taken to Sankt Petersburg by Grigorovich and are now
+                        kept in the Russian National Library: MS 24.4.15, known as the Macedonian
+                        Glagolitic folio and MS 24.4.17, known as The Leaf of Grigorovich. The other
+                        3 foia are kept in the Rila Monastery Library, MS 3/6. </acquisition></history><additional><listBibl><bibl><ref>KME 3: 468-473.</ref>; <ref>Христова 1996: 62-63. </ref></bibl></listBibl></additional></msDesc></body></text></TEI>

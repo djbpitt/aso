@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package
+    xmlns="http://expath.org/ns/pkg"
+    name="http://www.obdurodon.org/app/Slovo-Aso"
+    abbrev="Slovo-Aso"
+    version="1.0.0"
+    spec="1.0">
+    <title>Slovo Aso</title>
+    <dependency processor="http://exist-db.org" semver-min="6.2.0"/>
+</package>

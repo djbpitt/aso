@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI SYSTEM "../schema/tei_ms_repertorium.dtd">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader><fileDesc><titleStmt><title>Menaion for February, 2/13 (13), Rila Monastery, 16th c., beginning. </title><author>Radoslava Stankova</author><author>Dilyana Radoslavova</author></titleStmt><publicationStmt><publisher>Institute of Literature</publisher><pubPlace>Sofia</pubPlace><date>2013.</date></publicationStmt><sourceDesc><p>Printed catalogues.</p></sourceDesc></fileDesc><profileDesc><langUsage><language ident="en">English</language><language ident="bg">Bulgarian</language></langUsage><textClass><keywords scheme="Repertorium"><list><item>Menaion</item><item>Liturgical books</item><item>Hymnography</item></list></keywords></textClass></profileDesc></teiHeader><text><body><msDesc><msIdentifier><msName type="general">Menaion for February.</msName><country>Bulgaria,</country><settlement>Rila,</settlement><repository>Rila Monastery,</repository><idno type="shelfmark">2/13 (13),</idno><idno type="catalogue">267.</idno><note><listBibl><bibl><ref>Своден каталог: 267;</ref><ref>Опис на ръкописите 1902: 37,
+                                    ІІ/13);</ref><ref>Славянски ръкописи 1986: 53-55, № 21. </ref></bibl></listBibl></note></msIdentifier><physDesc><objectDesc form="codex"><supportDesc material="paper"><support><material>Paper.</material></support><extent>ХІІ+209 ff.</extent><condition>The MS was used for a long time, but it is well
+                                preserved.</condition></supportDesc><layoutDesc><layout columns="1" writtenLines="25">In 1 column, 25 lines per
+                                page.</layout></layoutDesc></objectDesc></physDesc><scribeDesc xmlns="http://www.ilit.bas.bg/repertorium/ns/3.1"><scribe><scriptDesc><p xmlns="http://www.tei-c.org/ns/1.0">Middle semi-uncial of low
+                                quality.</p></scriptDesc></scribe></scribeDesc><msContents><summary>Contains services for the whole month. The one for St. Simeon of
+                        Serbia, composed by Theodosios of Hilandar is on f. 116-126v. The 16th-c.
+                        addition in the beginning, which was taken from another MS, contains the
+                        Service for St. Geogre the Youngest of Sofia by priest Peyo (the authors
+                        name is preserved in an acrostic), and a synaxarian life of the martyr
+                            (<ref>Станимиров 1931–1932</ref>). This is the earliest copy of the the
+                        Service, which is wrongly dated to the 17th c. by Sprostranov (see also:
+                            <ref>Динеков 1939: 77-78, 110</ref>.) </summary></msContents><history><origin><origDate>16th c., beginning.</origDate></origin></history><additional><listBibl><bibl><ref>Станимиров 1931–1932; </ref><ref>Динеков 1939: 77-78,
+                            110</ref>.</bibl></listBibl></additional></msDesc></body></text></TEI>
