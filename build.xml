@@ -5,8 +5,9 @@
   <property name="project.version" value="${package(version)}" />
   <property name="project.app" value="${package(abbrev)}" />
   <property name="build.dir" value="build" />
+  <property name="private.dir" value="private"/>
   <target name="xar" description="compile release build">
     <mkdir dir="${build.dir}" />
-    <zip basedir="." destfile="${build.dir}/${project.app}-${project.version}.xar" excludes="**/${build.dir}/**" />
+    <zip basedir="." destfile="${build.dir}/${project.app}-${project.version}.xar" excludes="**/${build.dir}/**, **/${private.dir}/**" />
   </target>
 </project>
