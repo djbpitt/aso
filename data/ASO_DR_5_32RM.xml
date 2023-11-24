@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI SYSTEM "../schema/tei_ms_repertorium.dtd">
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <!--Elena Tomova; Dilyana Radoslavova--><teiHeader><fileDesc><titleStmt><title>Miscellany with services and lives of St. John of Rila, 5/32 (172), Rila
                     Monastery, 18th c., last quarter.</title><author>Elena Tomova</author><author>Dilyana Radoslavova</author></titleStmt><publicationStmt><publisher>Institute of Literature</publisher><pubPlace>Sofia</pubPlace><date>2013.</date></publicationStmt><sourceDesc><p>Printed catalogues.</p></sourceDesc></fileDesc><profileDesc><langUsage><language ident="en">English</language><language ident="bg">Bulgarian</language></langUsage><textClass><keywords scheme="Repertorium"><list><item>Liturgical books</item><item>St. John of Rila</item><item>Hagiography</item><item>Hymnography</item></list></keywords></textClass></profileDesc></teiHeader><text><body><msDesc><msIdentifier><msName type="individual">Miscellany with services anf lives of St. John of
