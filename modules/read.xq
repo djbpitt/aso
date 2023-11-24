@@ -63,29 +63,39 @@ declare function local:process-identifier($input as element()) as element(m:iden
   <m:bibl>{
       for $child in $ms/descendant::tei:msIdentifier/descendant::tei:listBibl/tei:bibl
       return
-        concat($child, ' ')
+        concat(string-join($child/node(), ' '), ' ')
     }</m:bibl>
   <m:physDesc>{
       $ms/descendant::tei:physDesc/descendant::tei:material ! <m:material>{local:normalize(.)}</m:material>,
       $ms/descendant::tei:physDesc/descendant::tei:extent ! <m:extent>{local:normalize(.)}</m:extent>,
       $ms/descendant::tei:physDesc/descendant::tei:layoutDesc ! <m:layout>{string-join(tei:layout, ' ')}</m:layout>
     }</m:physDesc>
+  <!-- Files were validated against DTD and are not namespace-aware; there are inconsistencies in the namespacing -->
   <m:scribes>{
-      for $summary in $ms/descendant::re:scribeDesc/tei:summary
+      for $summary in $ms/descendant::*:scribeDesc/tei:summary
       return
         <m:summary>{local:normalize($summary)}</m:summary>,
-      for $scribe in $ms/descendant::re:scribeDesc/re:scribe
+      for $scribe in $ms/descendant::*:scribeDesc/*:scribe
       return
         <m:scribe>{
             for $name in $scribe/tei:name
             return
               <m:name>{string($name)}</m:name>,
-            if ($scribe/re:scriptDesc or $scribe/re:scribeLang) then
-              <m:script>{string-join(($scribe/re:scriptDesc, $scribe/re:scribeLang), ' ')}</m:script>
+            if ($scribe/*:scriptDesc or $scribe/*:scribeLang) then
+              <m:script>{string-join(($scribe/*:scriptDesc, $scribe/*:scribeLang), ' ')}</m:script>
             else
               ()
           }</m:scribe>
     }</m:scribes>
   <m:contents>{string($ms/descendant::tei:msContents)}</m:contents>
-  {if ($ms/descendant::tei:history) then <m:history>{string-join($ms/descendant::tei:history/*, ' ')}</m:history> else ()}
+  {
+    if ($ms/descendant::tei:history) then
+      <m:history>{
+          for $child in $ms/descendant::tei:history/*
+          return
+            concat(string-join($child/node(), ' '), ' ')
+        }</m:history>
+    else
+      ()
+  }
 </m:main>
