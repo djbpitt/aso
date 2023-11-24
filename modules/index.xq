@@ -28,7 +28,7 @@ declare option output:indent "no";
       <m:title>Manuscripts</m:title>
       <m:ul>
         <m:li><m:a
-            url="search">Explore the manuscripts</m:a></m:li>
+            url="browse">Explore the manuscripts</m:a></m:li>
       </m:ul>
     </m:section>
     <m:section>
