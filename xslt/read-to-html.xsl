@@ -10,7 +10,10 @@
   </xsl:function>
   <xsl:template match="main">
     <main id="read">
-      <xsl:apply-templates/>
+      <xsl:apply-templates select="msIdentifier"/>
+      <table>
+        <xsl:apply-templates select="* except msIdentifier"/>
+      </table>
     </main>
   </xsl:template>
   <!-- ================================================================== -->
@@ -40,20 +43,17 @@
     </p>
   </xsl:template>
   <!-- ================================================================== -->
-  <!-- Bibliography                                                       -->
-  <!-- ================================================================== -->
-  <xsl:template match="bibl">
-    <span class="label">Bibliography: </span>
-    <xsl:apply-templates/>
-  </xsl:template>
-  <!-- ================================================================== -->
   <!-- Physical description                                               -->
   <!-- ================================================================== -->
   <xsl:template match="physDesc">
-    <h3>Physical description</h3>
-    <xsl:apply-templates/>
+    <tr>
+      <th>Physical description</th>
+      <td>
+        <xsl:apply-templates/>
+      </td>
+    </tr>
   </xsl:template>
-  <xsl:template match="material | extent | layout">
+  <xsl:template match="material | extent | layout | decoration | condition">
     <span class="label">
       <xsl:value-of select="re:titleCase(name())"/>
       <xsl:text>: </xsl:text>
@@ -66,13 +66,24 @@
   <!-- Scribes                                                            -->
   <!-- ================================================================== -->
   <xsl:template match="scribes">
-    <h3>
-      <xsl:text>Scribe</xsl:text>
-      <xsl:if test="count(scribe) gt 1">s</xsl:if>
-    </h3>
-    <ul>
+    <tr>
+      <th>
+        <xsl:text>Scribe</xsl:text>
+        <xsl:if test="count(scribe) gt 1">s</xsl:if>
+      </th>
+      <td>
+        <xsl:apply-templates select="summary"/>
+        <ul>
+          <xsl:apply-templates select="scribe"/>
+        </ul>
+      </td>
+    </tr>
+  </xsl:template>
+  <xsl:template match="scribes/summary">
+    <p>
+      <span class="label">Summary: </span>
       <xsl:apply-templates/>
-    </ul>
+    </p>
   </xsl:template>
   <xsl:template match="scribe">
     <li>
@@ -92,18 +103,33 @@
   <!-- Contents                                                           -->
   <!-- ================================================================== -->
   <xsl:template match="contents">
-    <h3>Contents</h3>
-    <p>
-      <xsl:apply-templates/>
-    </p>
+    <tr>
+      <th>Contents</th>
+      <td>
+        <xsl:apply-templates/>
+      </td>
+    </tr>
   </xsl:template>
   <!-- ================================================================== -->
   <!-- History                                                            -->
   <!-- ================================================================== -->
   <xsl:template match="history">
-    <h3>History</h3>
-    <p>
-      <xsl:apply-templates/>
-    </p>
+    <tr>
+      <th>History</th>
+      <td>
+        <xsl:apply-templates/>
+      </td>
+    </tr>
+  </xsl:template>
+  <!-- ================================================================== -->
+  <!-- Bibliography                                                       -->
+  <!-- ================================================================== -->
+  <xsl:template match="bibl">
+    <tr>
+      <th>Bibliography</th>
+      <td>
+        <xsl:apply-templates/>
+      </td>
+    </tr>
   </xsl:template>
 </xsl:stylesheet>

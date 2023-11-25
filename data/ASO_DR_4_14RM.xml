@@ -1,19 +1,117 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <!--Irina Kuzidova; Dilyana Radoslavova--><teiHeader><fileDesc><titleStmt><title>Hexaemeron of Vladislav the Grammarian (Predeli), 4/14 (13), Rila Monastrery; and
-          112, State Library, Odesa, 1456.</title><author>Irina Kuzidova</author><author>Dilyana Radoslavova</author></titleStmt><publicationStmt><publisher>Institute of Literature</publisher><pubPlace>Sofia</pubPlace><date>2013.</date></publicationStmt><sourceDesc><p>Printed catalogues.</p></sourceDesc></fileDesc><profileDesc><langUsage><language ident="en">English</language><language ident="bg">Bulgarian</language></langUsage><textClass><keywords scheme="Repertorium"><list><item>Hexaemeron</item><item>Predeli</item><item>Vladislav the Grammarian</item><item>St. Basil the Great</item><item>Patristic works</item></list></keywords></textClass></profileDesc></teiHeader><text><body><msDesc><msIdentifier><msName type="general">Hexaemeron by St. Basil the Great; </msName><msName type="individual">Hexaemeron of Vladislav the Grammarian (Predeli).</msName><p>Now the MS's parts are kept in two repositories: the Rila part or Hexaemeron (ca. 560
-            ff.) and Odessa part or The Miscellany called Predeli (77 ff.).</p><country>Bulgaria,</country><settlement>Rila,</settlement><repository>Rila Monastrery,</repository><idno type="shelfmark">4/14 (13),</idno><idno type="catalogue">2.</idno><note><listBibl><bibl>Своден каталог: 195; </bibl><bibl>Христова 1996: 11-24.</bibl></listBibl></note><altIdentifier><country>Ukraine,</country><settlement>Odesa,</settlement><repository>State Library,</repository><idno type="shelfmark">112.</idno></altIdentifier></msIdentifier><physDesc><objectDesc form="codex"><supportDesc material="paper"><support><material>Paper.</material></support><extent>560+77.</extent></supportDesc></objectDesc><decoDesc><p>Richly ornamented. Headpieces in Balkan style in blue, green, white and yellow,
+  <!--Irina Kuzidova; Dilyana Radoslavova-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Hexaemeron of Vladislav the Grammarian (Predeli), 4/14 (13), Rila Monastrery; and
+          112, State Library, Odesa, 1456.</title>
+        <author>Irina Kuzidova</author>
+        <author>Dilyana Radoslavova</author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Institute of Literature</publisher>
+        <pubPlace>Sofia</pubPlace>
+        <date>2013.</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Printed catalogues.</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="en">English</language>
+        <language ident="bg">Bulgarian</language>
+      </langUsage>
+      <textClass>
+        <keywords scheme="Repertorium">
+          <list>
+            <item>Hexaemeron</item>
+            <item>Predeli</item>
+            <item>Vladislav the Grammarian</item>
+            <item>St. Basil the Great</item>
+            <item>Patristic works</item>
+          </list>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <msDesc>
+        <msIdentifier>
+          <msName type="general">Hexaemeron by St. Basil the Great; </msName>
+          <msName type="individual">Hexaemeron of Vladislav the Grammarian (Predeli).</msName>
+          <p>Now the MS's parts are kept in two repositories: the Rila part or Hexaemeron (ca. 560
+            ff.) and Odessa part or The Miscellany called Predeli (77 ff.).</p>
+          <country>Bulgaria,</country>
+          <settlement>Rila,</settlement>
+          <repository>Rila Monastrery,</repository>
+          <idno type="shelfmark">4/14 (13),</idno>
+          <idno type="catalogue">2.</idno>
+          <note><listBibl>
+              <bibl><ref>Своден каталог: 195; </ref></bibl>
+              <bibl><ref>Христова 1996: 11-24.</ref></bibl>
+            </listBibl></note>
+          <altIdentifier>
+            <country>Ukraine,</country>
+            <settlement>Odesa,</settlement>
+            <repository>State Library,</repository>
+            <idno type="shelfmark">112.</idno>
+          </altIdentifier>
+        </msIdentifier>
+        <physDesc>
+          <objectDesc form="codex">
+            <supportDesc material="paper">
+              <support><material>Paper.</material></support>
+              <extent>560+77.</extent>
+            </supportDesc>
+          </objectDesc>
+          <decoDesc>
+            <p>Richly ornamented. Headpieces in Balkan style in blue, green, white and yellow,
               initials with floral and geometrical motifs. Ligaturschrift with geometrical and
-              floral motifs is used for the titles.</p></decoDesc></physDesc><scribeDesc xmlns="http://www.ilit.bas.bg/repertorium/ns/3.0"><scribe><name xmlns="http://www.tei-c.org/ns/1.0">Vladislav the Grammarian.</name><scriptDesc script="cyrs"><p>Middle calligraphic semi-uncial.</p></scriptDesc><scribeLang><orthography><p xmlns="http://www.tei-c.org/ns/1.0">Resava orthography with a lot of diacritical
-                  signs.</p></orthography></scribeLang></scribe></scribeDesc><msContents><summary>Contains St. Basil the Great's Hexaemeron, commentaries by St. John Chrysostom,
+              floral motifs is used for the titles.</p>
+          </decoDesc>
+        </physDesc>
+        <scribeDesc xmlns="http://www.ilit.bas.bg/repertorium/ns/3.0">
+          <scribe>
+            <name xmlns="http://www.tei-c.org/ns/1.0">Vladislav the Grammarian.</name>
+            <scriptDesc script="cyrs">
+              <p>Middle calligraphic semi-uncial.</p>
+            </scriptDesc>
+            <scribeLang>
+              <orthography>
+                <p xmlns="http://www.tei-c.org/ns/1.0">Resava orthography with a lot of diacritical
+                  signs.</p>
+              </orthography>
+            </scribeLang>
+          </scribe>
+        </scribeDesc>
+        <msContents>
+          <summary>Contains St. Basil the Great's Hexaemeron, commentaries by St. John Chrysostom,
             St. Gregory of Nyssa and excerpts from the Hexaemeron by Severian of Gavala. St. Basil's
             Hexaemeron is in it's so called new Serbian translation, made in the end of the 14th c.
             After the main part of the MS there are copied: the work of St. Gregory of Nyssa On the
             Making of Man and the Book of Jobe with the commentaries of Julian; Theophylact of
             Ohhris's commentaries on John, and st. John Chrysostom's commentaries on Matthew. Very
             peculiar feature of the MS are the commentaries by famous authors, added in the margins,
-            together with marginal scholia by Vladislav the Grammarian himself.</summary></msContents><history><origin><origDate>1456.</origDate><p>According to the colophone in the Odessa part of the MS, it was copies in Mlado
-              Nagoričane (Former Yugoslavia), and was finished in 1456 г. The notes in the Rila part
-              are of historiographic character.</p></origin><provenance><p>The whole miscellany was most probably composed by Vladislav the Grammarian
-              in the Rila monastery.</p></provenance><acquisition><p>V. Grigorović took part of the MS and donated it to Odessa University in
-              1865.</p></acquisition></history><additional><listBibl><bibl><ref>Христова 1996: 11-24.</ref></bibl></listBibl></additional></msDesc></body></text></TEI>
+            together with marginal scholia by Vladislav the Grammarian himself.</summary>
+        </msContents>
+        <history>
+          <origin><origDate>1456.</origDate><p>According to the colophone in the Odessa part of the
+              MS, it was copies in Mlado Nagoričane (Former Yugoslavia), and was finished in 1456 г.
+              The notes in the Rila part are of historiographic character.</p></origin>
+          <provenance><p>The whole miscellany was most probably composed by Vladislav the Grammarian
+              in the Rila monastery.</p></provenance>
+          <acquisition><p>V. Grigorović took part of the MS and donated it to Odessa University in
+              1865.</p></acquisition>
+        </history>
+        <additional>
+          <listBibl>
+            <bibl><ref>Христова 1996: 11-24.</ref></bibl>
+          </listBibl>
+        </additional>
+      </msDesc>
+    </body>
+  </text>
+</TEI>

@@ -60,25 +60,22 @@ declare function local:process-identifier($input as element()) as element(m:iden
         local:process-identifier($altIdentifier)
     }
   </m:identifiers>
-  <m:bibl>{
-      for $child in $ms/descendant::tei:msIdentifier/descendant::tei:listBibl/tei:bibl
-      return
-        concat(string-join($child/node(), ' '), ' ')
-    }</m:bibl>
   <m:physDesc>{
       $ms/descendant::tei:physDesc/descendant::tei:material ! <m:material>{local:normalize(.)}</m:material>,
       $ms/descendant::tei:physDesc/descendant::tei:extent ! <m:extent>{local:normalize(.)}</m:extent>,
-      $ms/descendant::tei:physDesc/descendant::tei:layoutDesc ! <m:layout>{string-join(tei:layout, ' ')}</m:layout>
+      $ms/descendant::tei:physDesc/descendant::tei:layoutDesc ! <m:layout>{string-join(tei:layout, ' ')}</m:layout>,
+      $ms/descendant::tei:physDesc/descendant::tei:condition ! <m:condition>{string-join(., ' ')}</m:condition>,
+      $ms/descendant::tei:physDesc/descendant::tei:decoDesc ! <m:decoration>{string(.)}</m:decoration>
     }</m:physDesc>
   <!-- Files were validated against DTD and are not namespace-aware; there are inconsistencies in the namespacing -->
   <m:scribes>{
-      for $summary in $ms/descendant::*:scribeDesc/tei:summary
+      for $summary in $ms/descendant::*:scribeDesc/*:summary
       return
         <m:summary>{local:normalize($summary)}</m:summary>,
       for $scribe in $ms/descendant::*:scribeDesc/*:scribe
       return
         <m:scribe>{
-            for $name in $scribe/tei:name
+            for $name in $scribe/*:name
             return
               <m:name>{string($name)}</m:name>,
             if ($scribe/*:scriptDesc or $scribe/*:scribeLang) then
@@ -98,4 +95,10 @@ declare function local:process-identifier($input as element()) as element(m:iden
     else
       ()
   }
+  <m:bibl>{
+      let $bibItems := $ms/descendant::tei:bibl/tei:ref ! local:normalize(.)
+      return
+        distinct-values($bibItems) => sort() => string-join('; ') || '.'
+    }</m:bibl>
+
 </m:main>

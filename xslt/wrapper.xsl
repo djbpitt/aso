@@ -31,6 +31,18 @@
                         a digital library of South Slavic manuscripts</h1>
                 </header>
                 <xsl:apply-templates select="main"/>
+                <xsl:if test="main/@id eq 'read'">
+                    <!-- ================================================ -->
+                    <!-- First footer with Slovo-ASO identifier in read   -->
+                    <!-- ================================================ -->
+                    <footer>
+                        <hr/>
+                        <p>
+                            <span class="label">Slovo-ASO identifier: </span>
+                            <xsl:value-of select="$xslt.query-filename"/>
+                        </p>
+                    </footer>
+                </xsl:if>
                 <footer>
                     <hr/>
                     <p>Maintained by David J. Birnbaum. Results generated <xsl:value-of select="

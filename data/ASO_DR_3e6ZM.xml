@@ -1,6 +1,97 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader><fileDesc><titleStmt><title>Lenten Triodion, III.e.6, Monastery of Zographou, Mt. Athos, 14th c., end,
-                    and 16th c., middle. </title><author>Dilyana Radoslavova</author></titleStmt><publicationStmt><publisher>Institute of Literature</publisher><pubPlace>Sofia</pubPlace><date>2013.</date></publicationStmt><sourceDesc><p>Printed catalogues.</p></sourceDesc></fileDesc><profileDesc><langUsage><language ident="en">English</language><language ident="bg">Bulgarian</language></langUsage><textClass><keywords scheme="Repertorium"><list><item>Lenten Triodion</item><item>Liturgical books</item><item>Hymnography</item></list></keywords></textClass></profileDesc></teiHeader><text><body><msDesc><msIdentifier><msName type="general">Lenten Triodion.</msName><country>Greece,</country><settlement>Athos, Mt.,</settlement><repository>Monastery of Zographou,</repository><idno type="shelfmark">Zographou III.e.6, </idno><idno type="catalogue">215.</idno><note><bibl><ref>Каталог 1994: 215.</ref><ref/></bibl></note></msIdentifier><physDesc><objectDesc form="codex"><supportDesc material="mixed"><support><material>Parchment and paper.</material></support><extent>294 ff.</extent></supportDesc><layoutDesc><layout writtenLines="18-24" columns="1">In 1 column, 18 lines per page
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Lenten Triodion, III.e.6, Monastery of Zographou, Mt. Athos, 14th c., end,
+                    and 16th c., middle. </title>
+                <author>Dilyana Radoslavova</author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Institute of Literature</publisher>
+                <pubPlace>Sofia</pubPlace>
+                <date>2013.</date>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Printed catalogues.</p>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="bg">Bulgarian</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="Repertorium">
+                    <list>
+                        <item>Lenten Triodion</item>
+                        <item>Liturgical books</item>
+                        <item>Hymnography</item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <msDesc>
+                <msIdentifier>
+                    <msName type="general">Lenten Triodion.</msName>
+                    <country>Greece,</country>
+                    <settlement>Athos, Mt.,</settlement>
+                    <repository>Monastery of Zographou,</repository>
+                    <idno type="shelfmark">Zographou III.e.6, </idno>
+                    <idno type="catalogue">215.</idno>
+                    <note><bibl><ref>Каталог 1994: 215.</ref><ref/></bibl></note>
+                </msIdentifier>
+                <physDesc>
+                    <objectDesc form="codex">
+                        <supportDesc material="mixed">
+                            <support><material>Parchment and paper.</material></support>
+                            <extent>294 ff.</extent>
+                        </supportDesc>
+                        <layoutDesc>
+                            <layout writtenLines="18-24" columns="1">In 1 column, 18 lines per page
                                 for the fist part (ff. 1-81), and 24 lines per page for the older
-                                part (ff. 82-294).</layout></layoutDesc></objectDesc></physDesc><scribeDesc xmlns="http://www.ilit.bas.bg/repertorium/ns/3.0"><summary xmlns="http://www.tei-c.org/ns/1.0">Two scribes.</summary><scribe n="1"><name>Anonymous.</name><scriptDesc script="cyrs"><p xmlns="http://www.tei-c.org/ns/1.0">Large semi-uncial.</p></scriptDesc><scribeLang><orthography><p xmlns="http://www.tei-c.org/ns/1.0">Resava orthography.</p></orthography></scribeLang></scribe><scribe n="2"><name>Anonymous.</name><scriptDesc script="cyrs"><p xmlns="http://www.tei-c.org/ns/1.0">Small semi-uncial.</p></scriptDesc><scribeLang><orthography><p xmlns="http://www.tei-c.org/ns/1.0">Bulgarian two-jus
-                                    orthography.</p></orthography></scribeLang></scribe></scribeDesc><history><origin><origDate>14th c., end, 16th c., middle.</origDate></origin></history><additional><listBibl><bibl>Караджова 1995: 213.</bibl></listBibl></additional></msDesc></body></text></TEI>
+                                part (ff. 82-294).</layout>
+                        </layoutDesc>
+                    </objectDesc>
+                </physDesc>
+                <scribeDesc xmlns="http://www.ilit.bas.bg/repertorium/ns/3.0">
+                    <summary xmlns="http://www.tei-c.org/ns/1.0">Two scribes.</summary>
+                    <scribe n="1">
+                        <name>Anonymous.</name>
+                        <scriptDesc script="cyrs">
+                            <p xmlns="http://www.tei-c.org/ns/1.0">Large semi-uncial.</p>
+                        </scriptDesc>
+                        <scribeLang>
+                            <orthography>
+                                <p xmlns="http://www.tei-c.org/ns/1.0">Resava orthography.</p>
+                            </orthography>
+                        </scribeLang>
+                    </scribe>
+                    <scribe n="2">
+                        <name>Anonymous.</name>
+                        <scriptDesc script="cyrs">
+                            <p xmlns="http://www.tei-c.org/ns/1.0">Small semi-uncial.</p>
+                        </scriptDesc>
+                        <scribeLang>
+                            <orthography>
+                                <p xmlns="http://www.tei-c.org/ns/1.0">Bulgarian two-jus
+                                    orthography.</p>
+                            </orthography>
+                        </scribeLang>
+                    </scribe>
+                </scribeDesc>
+                <history>
+                    <origin><origDate>14th c., end, 16th c., middle.</origDate></origin>
+                </history>
+                <additional>
+                    <listBibl>
+                        <bibl><ref>Караджова 1995: 213.</ref></bibl>
+                    </listBibl>
+                </additional>
+            </msDesc>
+        </body>
+    </text>
+</TEI>

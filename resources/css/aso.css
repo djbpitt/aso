@@ -35,8 +35,11 @@ h1 {
 footer {
   font-size: smaller;
 }
+footer > p {
+  margin: .2em;
+}
 .label {
-  color: gray;
+  font-weight: bolder;
 }
 /* ======================================================================= */
 /* Body                                                                    */
@@ -44,7 +47,7 @@ footer {
 body {
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
+  min-height: 99vh;
   overflow-x: hidden;
 }
 main {
@@ -60,4 +63,18 @@ main {
 .msName {
   font-size: smaller;
   margin-left: 1em;
+}
+/* ======================================================================= */
+/* Read page                                                               */
+/* ======================================================================= */
+th {
+  text-align: left;
+  vertical-align: top;
+}
+#read ul {
+  margin: 0;
+  padding-left: 1em;
+}
+#read td > p {
+  margin: 0 0 .5em 0;
 }

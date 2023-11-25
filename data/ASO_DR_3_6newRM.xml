@@ -1,22 +1,111 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <!--Irina Kuzidova; Dilyana Radoslavova--><teiHeader><fileDesc><titleStmt><title>Andrianti (Homilies by St. John Chrysostom, etc.), 3/6 (14), Rila Monastrery,
-                    1473. </title><author>Irina Kuzidova</author><author>Dilyana Radoslavova</author></titleStmt><publicationStmt><publisher>Institute of Literature</publisher><pubPlace>Sofia</pubPlace><date>2013.</date></publicationStmt><sourceDesc><p>Printed catalogues.</p></sourceDesc></fileDesc><profileDesc><langUsage><language ident="en">English</language><language ident="bg">Bulgarian</language></langUsage><textClass><keywords scheme="Repertorium"><list><item>Patristic works</item><item>St. John Chrysostom</item><item>Andrianti</item></list></keywords></textClass></profileDesc></teiHeader><text><body><msDesc><msIdentifier><msName type="general">Homilies by St. John Chrysostom, etc.; </msName><msName type="individual">Andrianti.</msName><country>Bulgaria,</country><settlement>Rila,</settlement><repository>Rila Monastrery,</repository><idno type="shelfmark">3/6 (14),</idno><idno type="catalogue">130.</idno><note><listBibl><bibl><ref>Своден каталог: 130; </ref><ref>Опис на ръкописите 1902: 52-56, 3/6; </ref><ref>Христова 1996: 49-63. </ref></bibl></listBibl></note></msIdentifier><physDesc><objectDesc form="codex"><supportDesc material="paper"><support><material>Paper.</material></support><extent>565 ff.</extent></supportDesc></objectDesc><decoDesc><p>The title lines are executed in colour (red and blue), the initials are
+    <!--Irina Kuzidova; Dilyana Radoslavova-->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Andrianti (Homilies by St. John Chrysostom, etc.), 3/6 (14), Rila Monastrery,
+                    1473. </title>
+                <author>Irina Kuzidova</author>
+                <author>Dilyana Radoslavova</author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Institute of Literature</publisher>
+                <pubPlace>Sofia</pubPlace>
+                <date>2013.</date>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Printed catalogues.</p>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="bg">Bulgarian</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="Repertorium">
+                    <list>
+                        <item>Patristic works</item>
+                        <item>St. John Chrysostom</item>
+                        <item>Andrianti</item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <msDesc>
+                <msIdentifier>
+                    <msName type="general">Homilies by St. John Chrysostom, etc.; </msName>
+                    <msName type="individual">Andrianti.</msName>
+                    <country>Bulgaria,</country>
+                    <settlement>Rila,</settlement>
+                    <repository>Rila Monastrery,</repository>
+                    <idno type="shelfmark">3/6 (14),</idno>
+                    <idno type="catalogue">130.</idno>
+                    <note><listBibl>
+                            <bibl><ref>Своден каталог: 130; </ref><ref>Опис на ръкописите 1902:
+                                    52-56, 3/6; </ref><ref>Христова 1996: 49-63. </ref></bibl>
+                        </listBibl></note>
+                </msIdentifier>
+                <physDesc>
+                    <objectDesc form="codex">
+                        <supportDesc material="paper">
+                            <support><material>Paper.</material></support>
+                            <extent>565 ff.</extent>
+                        </supportDesc>
+                    </objectDesc>
+                    <decoDesc>
+                        <p>The title lines are executed in colour (red and blue), the initials are
                             of floral and geometrical type, and the headpieces are in interwaved
-                            style.</p></decoDesc></physDesc><scribeDesc xmlns="http://www.ilit.bas.bg/repertorium/ns/3.0"><scribe><name xmlns="http://www.tei-c.org/ns/1.0">Vladislav the Grammarian.</name><scriptDesc><p xmlns="http://www.tei-c.org/ns/1.0">Large calligraphic
-                                semi-uncial.</p></scriptDesc><scribeLang><orthography><p xmlns="http://www.tei-c.org/ns/1.0">Resava orthography with a lot
-                                    of diacritical signs.</p></orthography></scribeLang></scribe></scribeDesc><msContents><summary>The title of the anthology (Кніига гл҃маа Адрїанты) refers to the mane
+                            style.</p>
+                    </decoDesc>
+                </physDesc>
+                <scribeDesc xmlns="http://www.ilit.bas.bg/repertorium/ns/3.0">
+                    <scribe>
+                        <name xmlns="http://www.tei-c.org/ns/1.0">Vladislav the Grammarian.</name>
+                        <scriptDesc>
+                            <p xmlns="http://www.tei-c.org/ns/1.0">Large calligraphic
+                                semi-uncial.</p>
+                        </scriptDesc>
+                        <scribeLang>
+                            <orthography>
+                                <p xmlns="http://www.tei-c.org/ns/1.0">Resava orthography with a lot
+                                    of diacritical signs.</p>
+                            </orthography>
+                        </scribeLang>
+                    </scribe>
+                </scribeDesc>
+                <msContents>
+                    <summary>The title of the anthology (Кніига гл҃маа Адрїанты) refers to the mane
                         corpus of St. John Chrysostom's homilies devoted to the campaign of emperor
                         Theodosios the Great against the idol worship. After the “Andrianti” there
                         could be find some more homilies: by John Chrysostom, Ephraem the Syrian,
                         Anastasios II, patriarch of Antioch, etc. Vladislav the Grammarian
                         interpolated into the MS for commentaries on Bible texts as homilies for the
-                        Great Lent.</summary></msContents><history><origin><origDate>1473.</origDate><p>On f. 337v-338 Vladislav the Grammarian wrote an inscription of
-                            historiographic value. It says that the MS was copied in the Monastery
-                            of Žegligovo (Monte Negro) and that the translation of St. John
-                            Chrysostom's homilies was made by monk Antonios from the monastery of
-                            Vatopedi, who was a disciple of father Genadios. The copyist claimed
-                            that the translation was ordered by Basil, bishop of Studenica and
-                            archdiacon Nikita. Vladislav the Grammarian also mentioned some events
-                            that happened in the reign of Mehmed II Conqueror.</p></origin><provenance>The famous Rila glgolitic leaves were found in the binding of this
-                        very MS.</provenance></history><additional><listBibl><bibl><ref>Христова 1996: 49-63.</ref></bibl></listBibl></additional></msDesc></body></text></TEI>
+                        Great Lent.</summary>
+                </msContents>
+                <history>
+                    <origin><origDate>1473.</origDate><p>On f. 337v-338 Vladislav the Grammarian
+                            wrote an inscription of historiographic value. It says that the MS was
+                            copied in the Monastery of Žegligovo (Monte Negro) and that the
+                            translation of St. John Chrysostom's homilies was made by monk Antonios
+                            from the monastery of Vatopedi, who was a disciple of father Genadios.
+                            The copyist claimed that the translation was ordered by Basil, bishop of
+                            Studenica and archdiacon Nikita. Vladislav the Grammarian also mentioned
+                            some events that happened in the reign of Mehmed II
+                        Conqueror.</p></origin>
+                    <provenance>The famous Rila glgolitic leaves were found in the binding of this
+                        very MS.</provenance>
+                </history>
+                <additional>
+                    <listBibl>
+                        <bibl><ref>Христова 1996: 49-63.</ref></bibl>
+                    </listBibl>
+                </additional>
+            </msDesc>
+        </body>
+    </text>
+</TEI>
