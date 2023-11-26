@@ -85,7 +85,10 @@ declare function local:process-identifier($input as element()) as element(m:iden
               <m:script>{string-join(($scribe/*:scriptDesc, $scribe/*:scribeLang), ' ')}</m:script>
             else
               ()
-          }</m:scribe>
+          }</m:scribe>,
+          for $note in $ms/descendant::*:scribeDesc/descendant::*:note
+          return
+            <m:scribeNote>{local:normalize($note)}</m:scribeNote>
     }</m:scribes>
   <m:contents>{string($ms/descendant::*:msContents)}</m:contents>
   {

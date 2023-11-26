@@ -82,6 +82,7 @@
           <ul>
             <xsl:apply-templates select="scribe"/>
           </ul>
+          <xsl:apply-templates select="scribeNote"/>
         </td>
       </tr>
     </xsl:if>
@@ -106,6 +107,13 @@
     <span class="label">Hand: </span>
     <xsl:apply-templates/>
   </xsl:template>
+  <xsl:template match="scribeNote">
+    <p>
+      <span class="label">Note: </span>
+      <xsl:apply-templates/>
+    </p>
+  </xsl:template>
+  
   <!-- ================================================================== -->
   <!-- Contents                                                           -->
   <!-- ================================================================== -->

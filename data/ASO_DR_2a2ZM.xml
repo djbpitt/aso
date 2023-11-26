@@ -1,10 +1,93 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader><fileDesc><titleStmt><title>Miscellany, II.a.2, Monastery of Zographou, Mt. Athos, 14th c., 3rd
-                    quarter.</title><author>Dilyana Radoslavova</author></titleStmt><publicationStmt><publisher>Institute of Literature</publisher><pubPlace>Sofia</pubPlace><date>2013.</date></publicationStmt><sourceDesc><p>Printed catalogues.</p></sourceDesc></fileDesc><profileDesc><langUsage><language ident="en">English</language><language ident="bg">Bulgarian</language></langUsage><textClass><keywords scheme="Repertorium"><list><item>Hagiography</item><item>Sermons</item><item>Panegyrical works</item></list></keywords></textClass></profileDesc></teiHeader><text><body><msDesc><msIdentifier><msName type="general">Miscellany.</msName><country>Greece,</country><settlement>Athos, Mt.,</settlement><repository>Monastery of Zographou,</repository><idno type="shelfmark">Zographou II.a.2, </idno><idno type="catalogue">90.</idno><note><bibl><ref>Каталог 1994: 90. </ref></bibl>According to B. Khristova the MS
-                        is a part of the so-called Slepche Miscellalny of the 14th c. (see MS 1045,
-                        National Library SS Cyril and Methodios, Sofia; <bibl><ref>Христова
-                                1994).</ref></bibl></note></msIdentifier><physDesc><objectDesc form="codex"><supportDesc material="paper"><support><material>Paper.</material></support><extent>218 ff.</extent></supportDesc></objectDesc></physDesc><scribeDesc xmlns="http://www.ilit.bas.bg/repertorium/ns/3.0"><summary xmlns="http://www.tei-c.org/ns/1.0">Five scribes.</summary><scribe><scriptDesc><p xmlns="http://www.tei-c.org/ns/1.0">Semi-uncial.</p></scriptDesc><scribeLang><summary xmlns="http://www.tei-c.org/ns/1.0">Middle Bulgarian
-                                orthography.</summary></scribeLang></scribe></scribeDesc><msContents><summary>Contains: Vita of Euthymios the Great, Translatio of St. John
-                        Chrysostom's relicts, Sermons on Hypapante, Enkomion on the St. John
-                        Chrysostom, Enkomion on the Forty Martyrs of Sebasteia, Enkomion on the
-                        Second finding of the Head of St. John the Baptist, etc.</summary></msContents><history><origin><origDate>14th c., 3rd quarter.</origDate></origin></history><additional><listBibl><bibl><ref>Христова 1994.</ref></bibl></listBibl></additional></msDesc></body></text></TEI>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+        <teiHeader>
+                <fileDesc>
+                        <titleStmt>
+                                <title>Miscellany, II.a.2, Monastery of Zographou, Mt. Athos, 14th
+                                        c., 3rd quarter.</title>
+                                <author>Dilyana Radoslavova</author>
+                                <editor>David J. Birnbaum</editor>
+                        </titleStmt>
+                        <publicationStmt>
+                                <publisher>Institute of Literature</publisher>
+                                <pubPlace>Sofia</pubPlace>
+                                <date>2013.</date>
+                        </publicationStmt>
+                        <sourceDesc>
+                                <p>Printed catalogues.</p>
+                        </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                        <langUsage>
+                                <language ident="en">English</language>
+                                <language ident="bg">Bulgarian</language>
+                        </langUsage>
+                        <textClass>
+                                <keywords scheme="Repertorium">
+                                        <list>
+                                                <item>Hagiography</item>
+                                                <item>Sermons</item>
+                                                <item>Panegyrical works</item>
+                                        </list>
+                                </keywords>
+                        </textClass>
+                </profileDesc>
+        </teiHeader>
+        <text>
+                <body>
+                        <msDesc>
+                                <msIdentifier>
+                                        <msName type="general">Miscellany.</msName>
+                                        <country>Greece,</country>
+                                        <settlement>Athos, Mt.,</settlement>
+                                        <repository>Monastery of Zographou,</repository>
+                                        <idno type="shelfmark">Zographou II.a.2, </idno>
+                                        <idno type="catalogue">90.</idno>
+                                        <note><bibl><ref>Каталог 1994: 90. </ref></bibl>According to
+                                                B. Khristova the MS is a part of the so-called
+                                                Slepche Miscellalny of the 14th c. (see MS 1045,
+                                                National Library SS Cyril and Methodios, Sofia;
+                                                  <bibl><ref>Христова 1994</ref>).</bibl></note>
+                                </msIdentifier>
+                                <physDesc>
+                                        <objectDesc form="codex">
+                                                <supportDesc material="paper">
+                                                  <support><material>Paper.</material></support>
+                                                  <extent>218 ff.</extent>
+                                                </supportDesc>
+                                        </objectDesc>
+                                </physDesc>
+                                <scribeDesc xmlns="http://www.ilit.bas.bg/repertorium/ns/3.0">
+                                        <summary xmlns="http://www.tei-c.org/ns/1.0">Five
+                                                scribes.</summary>
+                                        <scribe>
+                                                <scriptDesc>
+                                                  <p xmlns="http://www.tei-c.org/ns/1.0"
+                                                  >Semi-uncial.</p>
+                                                </scriptDesc>
+                                                <scribeLang>
+                                                  <summary xmlns="http://www.tei-c.org/ns/1.0"
+                                                  >Middle Bulgarian orthography.</summary>
+                                                </scribeLang>
+                                        </scribe>
+                                </scribeDesc>
+                                <msContents>
+                                        <summary>Contains: Vita of Euthymios the Great, Translatio
+                                                of St. John Chrysostom's relicts, Sermons on
+                                                Hypapante, Enkomion on the St. John Chrysostom,
+                                                Enkomion on the Forty Martyrs of Sebasteia, Enkomion
+                                                on the Second finding of the Head of St. John the
+                                                Baptist, etc.</summary>
+                                </msContents>
+                                <history>
+                                        <origin><origDate>14th c., 3rd quarter.</origDate></origin>
+                                </history>
+                                <additional>
+                                        <listBibl>
+                                                <bibl><ref>Христова 1994.</ref></bibl>
+                                        </listBibl>
+                                </additional>
+                        </msDesc>
+                </body>
+        </text>
+</TEI>
