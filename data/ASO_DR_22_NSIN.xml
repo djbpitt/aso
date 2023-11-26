@@ -1,2 +1,80 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader><fileDesc><titleStmt><title>Psalter, Sin.Slav.22/N, Monastery of St. Catherine, Mt. Sinai, 15th c.</title><author>Dilyana Radoslavova</author></titleStmt><publicationStmt><publisher>Institute of Literature</publisher><pubPlace>Sofia</pubPlace><date>2013.</date></publicationStmt><sourceDesc><p>Printed catalogues.</p></sourceDesc></fileDesc><profileDesc><langUsage><language ident="en">English</language></langUsage><textClass><keywords scheme="Repertorium"><list><item>Psalter</item><item>Bible books</item><item>Liturgical books</item></list></keywords></textClass></profileDesc></teiHeader><text><body><msDesc><msIdentifier><msName type="general">Psalter.</msName><country>Egypt,</country><settlement>Sinai, Mt.,</settlement><repository>Monastery of St. Catherine,</repository><idno type="shelfmark">Sin.Slav.22/N,</idno><idno type="catalogue">22/N,</idno><collection>New Collection.</collection><note><bibl><ref>Tarnanidis 1988: 158.</ref></bibl></note></msIdentifier><physDesc><objectDesc form="codex"><supportDesc material="paper"><support><material>Paper.</material></support><extent>100 ff.</extent><condition>Russian-Moldovian MS; it is in a bad condition and hardly legible.</condition></supportDesc><layoutDesc><layout columns="1" writtenLines="26">In 1 column, 26 lines per page.</layout></layoutDesc></objectDesc><decoDesc><p>Red initials.</p></decoDesc></physDesc><scribeDesc xmlns="http://www.ilit.bas.bg/repertorium/ns/3.0"><scribe><name>Anonymous.</name><scriptDesc script="cyrs"><p xmlns="http://www.tei-c.org/ns/1.0">Cyrillic majuscule.</p></scriptDesc></scribe></scribeDesc><msContents><summary>Contain sthe Psalms and a fragment of the Prayer of Zachariah.</summary></msContents><history><origin><origDate>15th c.</origDate></origin></history></msDesc></body></text></TEI>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Psalter, Sin.Slav.22/N, Monastery of St. Catherine, Mt. Sinai, 15th c.</title>
+        <author>Dilyana Radoslavova</author>
+        <editor>David J. Birnbaum</editor>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Institute of Literature</publisher>
+        <pubPlace>Sofia</pubPlace>
+        <date>2013.</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Printed catalogues.</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="en">English</language>
+      </langUsage>
+      <textClass>
+        <keywords scheme="Repertorium">
+          <list>
+            <item>Psalter</item>
+            <item>Bible books</item>
+            <item>Liturgical books</item>
+          </list>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <msDesc>
+        <msIdentifier>
+          <msName type="general">Psalter.</msName>
+          <country>Egypt,</country>
+          <settlement>Sinai, Mt.,</settlement>
+          <repository>Monastery of St. Catherine,</repository>
+          <idno type="shelfmark">Sin.Slav.22/N,</idno>
+          <idno type="catalogue">22/N,</idno>
+          <collection>New Collection.</collection>
+          <note><bibl><ref>Tarnanidis 1988: 158.</ref></bibl></note>
+        </msIdentifier>
+        <physDesc>
+          <objectDesc form="codex">
+            <supportDesc material="paper">
+              <support><material>Paper.</material></support>
+              <extent>100 ff.</extent>
+              <condition>Russian-Moldovian MS; it is in a bad condition and hardly
+                legible.</condition>
+            </supportDesc>
+            <layoutDesc>
+              <layout columns="1" writtenLines="26">In 1 column, 26 lines per page.</layout>
+            </layoutDesc>
+          </objectDesc>
+          <decoDesc>
+            <p>Red initials.</p>
+          </decoDesc>
+        </physDesc>
+        <scribeDesc xmlns="http://www.ilit.bas.bg/repertorium/ns/3.0">
+          <scribe>
+            <name>Anonymous.</name>
+            <scriptDesc script="cyrs">
+              <p xmlns="http://www.tei-c.org/ns/1.0">Cyrillic majuscule.</p>
+            </scriptDesc>
+          </scribe>
+        </scribeDesc>
+        <msContents>
+          <summary>Contains the Psalms and a fragment of the Prayer of Zachariah.</summary>
+        </msContents>
+        <history>
+          <origin><origDate>15th c.</origDate></origin>
+        </history>
+      </msDesc>
+    </body>
+  </text>
+</TEI>

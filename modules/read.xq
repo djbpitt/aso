@@ -34,6 +34,7 @@ declare function local:process-identifier($input as element()) as element(m:iden
   let $repository as xs:string := $input/tei:repository ! local:normalize(.)
   let $shelfmark as xs:string := $input/tei:idno[@type eq 'shelfmark'] ! local:normalize(.)
   let $catalog as xs:string? := $input/tei:idno[@type eq 'catalogue'] ! local:normalize(.)
+  let $collection as xs:string? := $input/tei:collection ! local:normalize(.)
   return
     <m:identifier>{
         if (exists($names)) then
@@ -46,7 +47,8 @@ declare function local:process-identifier($input as element()) as element(m:iden
         <m:settlement>{$settlement}</m:settlement>
         <m:repository>{$repository}</m:repository>
         <m:shelfmark>{$shelfmark}</m:shelfmark>
-        {$catalog ! <m:catalog>{local:normalize(.)}</m:catalog>}
+        {$catalog ! <m:catalog>{.}</m:catalog>}
+        {$collection ! <m:collection>{.}</m:collection>}
       </m:location>
     </m:identifier>
 };
@@ -78,13 +80,13 @@ declare function local:process-identifier($input as element()) as element(m:iden
             for $name in $scribe/*:name
             return
               <m:name>{string($name)}</m:name>,
-            if ($scribe/*:scriptDesc or $scribe/*:scribeLang) then
+            if ($scribe/*:scriptDesc[node()] or $scribe/*:scribeLang[node()]) then
               <m:script>{string-join(($scribe/*:scriptDesc, $scribe/*:scribeLang), ' ')}</m:script>
             else
               ()
           }</m:scribe>
     }</m:scribes>
-  <m:contents>{string($ms/descendant::tei:msContents)}</m:contents>
+  <m:contents>{string($ms/descendant::*:msContents)}</m:contents>
   {
     if ($ms/descendant::tei:history) then
       <m:history>{

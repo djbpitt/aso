@@ -28,17 +28,20 @@
     </h3>
   </xsl:template>
   <xsl:template match="location">
-    <xsl:value-of select="string-join((country, settlement, repository, shelfmark), ', ')"/>
-    <xsl:apply-templates select="catalog"/>
+    <xsl:value-of select="string-join((country, settlement, repository, shelfmark), ', ') || '. '"/>
+    <xsl:apply-templates select="catalog, collection"/>
   </xsl:template>
-  <xsl:template match="catalog">
-    <xsl:text> (</xsl:text>
+  <xsl:template match="catalog | collection">
+    <span class="label"><xsl:value-of select="re:titleCase(name()) || ': '"/></span>
     <xsl:apply-templates/>
-    <xsl:text>) </xsl:text>
+    <xsl:text>. </xsl:text>
   </xsl:template>
-  <xsl:template match="altIdentifier">
+  <xsl:template match="identifiers/identifier">
+    <!-- ================================================================ -->
+    <!-- altIdentifier                                                    -->
+    <!-- ================================================================ -->
     <p>
-      <span class="label">Alternative identifier:</span>
+      <span class="label">Alternative identifier: </span>
       <xsl:apply-templates select="location"/>
     </p>
   </xsl:template>
@@ -66,18 +69,20 @@
   <!-- Scribes                                                            -->
   <!-- ================================================================== -->
   <xsl:template match="scribes">
-    <tr>
-      <th>
-        <xsl:text>Scribe</xsl:text>
-        <xsl:if test="count(scribe) gt 1">s</xsl:if>
-      </th>
-      <td>
-        <xsl:apply-templates select="summary"/>
-        <ul>
-          <xsl:apply-templates select="scribe"/>
-        </ul>
-      </td>
-    </tr>
+    <xsl:if test="exists(*)">
+      <tr>
+        <th>
+          <xsl:text>Scribe</xsl:text>
+          <xsl:if test="count(scribe) gt 1">s</xsl:if>
+        </th>
+        <td>
+          <xsl:apply-templates select="summary"/>
+          <ul>
+            <xsl:apply-templates select="scribe"/>
+          </ul>
+        </td>
+      </tr>
+    </xsl:if>
   </xsl:template>
   <xsl:template match="scribes/summary">
     <p>
@@ -103,12 +108,14 @@
   <!-- Contents                                                           -->
   <!-- ================================================================== -->
   <xsl:template match="contents">
-    <tr>
-      <th>Contents</th>
-      <td>
-        <xsl:apply-templates/>
-      </td>
-    </tr>
+    <xsl:if test="exists(node())">
+      <tr>
+        <th>Contents</th>
+        <td>
+          <xsl:apply-templates/>
+        </td>
+      </tr>
+    </xsl:if>
   </xsl:template>
   <!-- ================================================================== -->
   <!-- History                                                            -->
