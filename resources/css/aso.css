@@ -82,5 +82,5 @@ th {
   margin: 0 0 .5em 0;
 }
 #read ul + p { /* Overrides preceding selector */
-  margin-top: .5em;
+  margin: .5em 0 0 0;
 }
