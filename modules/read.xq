@@ -63,7 +63,7 @@ declare function local:process-identifier($input as element()) as element(m:iden
     }
   </m:identifiers>
   <m:physDesc>{
-      $ms/descendant::tei:physDesc/descendant::tei:material ! <m:material>{local:normalize(.)}</m:material>,
+      $ms/descendant::tei:physDesc/descendant::tei:support ! <m:material>{local:normalize(.)}</m:material>,
       $ms/descendant::tei:physDesc/descendant::tei:extent ! <m:extent>{local:normalize(.)}</m:extent>,
       $ms/descendant::tei:physDesc/descendant::tei:layoutDesc ! <m:layout>{string-join(tei:layout, ' ')}</m:layout>,
       $ms/descendant::tei:physDesc/descendant::tei:condition ! <m:condition>{string-join(., ' ')}</m:condition>,
