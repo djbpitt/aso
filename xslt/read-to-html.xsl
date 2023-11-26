@@ -32,7 +32,9 @@
     <xsl:apply-templates select="catalog, collection"/>
   </xsl:template>
   <xsl:template match="catalog | collection">
-    <span class="label"><xsl:value-of select="re:titleCase(name()) || ': '"/></span>
+    <span class="label">
+      <xsl:value-of select="re:titleCase(name()) || ': '"/>
+    </span>
     <xsl:apply-templates/>
     <xsl:text>. </xsl:text>
   </xsl:template>
@@ -56,11 +58,11 @@
       </td>
     </tr>
   </xsl:template>
-  <xsl:template match="material | extent | layout | decoration | condition">
-    <span class="label">
+  <xsl:template match="material | extent | layout | decoration | condition | additions">
+    <!--<span class="label">
       <xsl:value-of select="re:titleCase(name())"/>
       <xsl:text>: </xsl:text>
-    </span>
+    </span>-->
     <xsl:apply-templates/>
     <xsl:if test="not(ends-with(., '.'))">.</xsl:if>
     <xsl:text> </xsl:text>
@@ -69,7 +71,7 @@
   <!-- Scribes                                                            -->
   <!-- ================================================================== -->
   <xsl:template match="scribes">
-    <xsl:if test="exists(*)">
+    <xsl:if test="exists(scribe/node())">
       <tr>
         <th>
           <xsl:text>Scribe</xsl:text>

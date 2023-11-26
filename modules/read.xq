@@ -67,7 +67,8 @@ declare function local:process-identifier($input as element()) as element(m:iden
       $ms/descendant::tei:physDesc/descendant::tei:extent ! <m:extent>{local:normalize(.)}</m:extent>,
       $ms/descendant::tei:physDesc/descendant::tei:layoutDesc ! <m:layout>{string-join(tei:layout, ' ')}</m:layout>,
       $ms/descendant::tei:physDesc/descendant::tei:condition ! <m:condition>{string-join(., ' ')}</m:condition>,
-      $ms/descendant::tei:physDesc/descendant::tei:decoDesc ! <m:decoration>{string(.)}</m:decoration>
+      $ms/descendant::tei:physDesc/descendant::tei:decoDesc ! <m:decoration>{string(.)}</m:decoration>,
+      $ms/descendant::tei:physDesc/descendant::tei:additions ! <m:additions>{string(.)}</m:additions>
     }</m:physDesc>
   <!-- Files were validated against DTD and are not namespace-aware; there are inconsistencies in the namespacing -->
   <m:scribes>{
