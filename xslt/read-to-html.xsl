@@ -64,7 +64,7 @@
       <xsl:text>: </xsl:text>
     </span>-->
     <xsl:apply-templates/>
-    <xsl:if test="not(ends-with(., '.'))">.</xsl:if>
+    <xsl:if test="not(matches(., '\. *$'))">.</xsl:if>
     <xsl:text> </xsl:text>
   </xsl:template>
   <!-- ================================================================== -->
