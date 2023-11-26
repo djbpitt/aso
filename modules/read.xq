@@ -32,7 +32,7 @@ declare function local:process-identifier($input as element()) as element(m:iden
   let $country as xs:string := $input/tei:country ! local:normalize(.)
   let $settlement as xs:string := $input/tei:settlement ! local:normalize(.)
   let $repository as xs:string := $input/tei:repository ! local:normalize(.)
-  let $shelfmark as xs:string := $input/tei:idno[@type eq 'shelfmark'] ! local:normalize(.)
+  let $shelfmark as xs:string? := $input/tei:idno[@type eq 'shelfmark'] ! local:normalize(.)
   let $catalog as xs:string? := $input/tei:idno[@type eq 'catalogue'] ! local:normalize(.)
   let $collection as xs:string? := $input/tei:collection ! local:normalize(.)
   return
@@ -46,7 +46,7 @@ declare function local:process-identifier($input as element()) as element(m:iden
         <m:country>{$country}</m:country>
         <m:settlement>{$settlement}</m:settlement>
         <m:repository>{$repository}</m:repository>
-        <m:shelfmark>{$shelfmark}</m:shelfmark>
+        {$shelfmark ! <m:shelfmark>{.}</m:shelfmark>}
         {$catalog ! <m:catalog>{.}</m:catalog>}
         {$collection ! <m:collection>{.}</m:collection>}
       </m:location>
