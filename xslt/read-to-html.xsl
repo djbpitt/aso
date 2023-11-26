@@ -59,10 +59,10 @@
     </tr>
   </xsl:template>
   <xsl:template match="material | extent | layout | decoration | condition | additions">
-    <!--<span class="label">
+    <span class="label">
       <xsl:value-of select="re:titleCase(name())"/>
       <xsl:text>: </xsl:text>
-    </span>-->
+    </span>
     <xsl:apply-templates/>
     <xsl:if test="not(matches(., '\. *$'))">.</xsl:if>
     <xsl:text> </xsl:text>
