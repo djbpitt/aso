@@ -1,15 +1,100 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader><fileDesc><titleStmt><title>Tetraevangelion, III.e.8, Monastery of Zographou, Mt. Athos, 15th c., 3rd
-                    quarter.</title><author>Dilyana Radoslavova</author></titleStmt><publicationStmt><publisher>Institute of Literature</publisher><pubPlace>Sofia</pubPlace><date>2013.</date></publicationStmt><sourceDesc><p>Printed catalogues.</p></sourceDesc></fileDesc><profileDesc><langUsage><language ident="en">English</language><language ident="bg">Bulgarian</language><language ident="ru">Russian</language></langUsage><textClass><keywords scheme="Repertorium"><list><item>Tetraevangelion</item><item>Four Gospels</item><item>Bible books</item></list></keywords></textClass></profileDesc></teiHeader><text><body><msDesc><msIdentifier><msName type="general">Tetraevangelion.</msName><country>Greece,</country><settlement>Athos, Mt.,</settlement><repository>Monastery of Zographou,</repository><idno type="shelfmark"> Zographou III.e.8, </idno><idno type="catalogue">219.</idno><note><listBibl><bibl><ref>Каталог 1994: 219; </ref><ref>Опис 1985: 32.</ref></bibl></listBibl></note></msIdentifier><physDesc><objectDesc form="codex"><supportDesc material="paper"><support><material>Paper.</material></support><extent>325 ff.</extent></supportDesc><layoutDesc><layout writtenLines="22" columns="1">In 1 column, 22 lines per
-                                page.</layout></layoutDesc></objectDesc><decoDesc><p>Four headpieces in Balkan style, interlaced initials with geometrical and
-                            floral motifs.</p></decoDesc></physDesc><scribeDesc xmlns="http://www.ilit.bas.bg/repertorium/ns/3.0"><summary>The scribe were most probably the one who copied the 1451 Skopje
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Tetraevangelion, III.e.8, Monastery of Zographou, Mt. Athos, 15th c., 3rd
+                    quarter.</title>
+                <author>Dilyana Radoslavova</author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Institute of Literature</publisher>
+                <pubPlace>Sofia</pubPlace>
+                <date>2013.</date>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Printed catalogues.</p>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="bg">Bulgarian</language>
+                <language ident="ru">Russian</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="Repertorium">
+                    <list>
+                        <item>Tetraevangelion</item>
+                        <item>Four Gospels</item>
+                        <item>Bible books</item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <msDesc>
+                <msIdentifier>
+                    <msName type="general">Tetraevangelion.</msName>
+                    <country>Greece,</country>
+                    <settlement>Athos, Mt.,</settlement>
+                    <repository>Monastery of Zographou,</repository>
+                    <idno type="shelfmark"> Zographou III.e.8, </idno>
+                    <idno type="catalogue">219.</idno>
+                    <note><listBibl>
+                            <bibl><ref>Каталог 1994: 219; </ref><ref>Опис 1985: 32.</ref></bibl>
+                        </listBibl></note>
+                </msIdentifier>
+                <physDesc>
+                    <objectDesc form="codex">
+                        <supportDesc material="paper">
+                            <support><material>Paper.</material></support>
+                            <extent>325 ff.</extent>
+                        </supportDesc>
+                        <layoutDesc>
+                            <layout writtenLines="22" columns="1">In 1 column, 22 lines per
+                                page.</layout>
+                        </layoutDesc>
+                    </objectDesc>
+                    <decoDesc>
+                        <p>Four headpieces in Balkan style, interlaced initials with geometrical and
+                            floral motifs.</p>
+                    </decoDesc>
+                </physDesc>
+                <scribeDesc xmlns="http://www.ilit.bas.bg/repertorium/ns/3.0">
+                    <summary>The scribe were most probably the one who copied the 1451 Skopje
                         Menaion (Church Historical and Archival Institute, Sofia, 489) and part of
                         the 15th-c. Miscellany with services and vitae of St. John of
-                        Rila.</summary><scribe><name>Anonymous.</name><scriptDesc script="cyrs"><p xmlns="http://www.tei-c.org/ns/1.0">Semi-uncial.</p></scriptDesc><scribeLang><orthography><p>Bulgarian two-jer and two-jus orthography.</p></orthography></scribeLang></scribe></scribeDesc><msContents><summary>Contains the Titles and the Prefaces by Theophylaktos, archbishop of
+                        Rila.</summary>
+                    <scribe>
+                        <name>Anonymous.</name>
+                        <scriptDesc script="cyrs">
+                            <p xmlns="http://www.tei-c.org/ns/1.0">Semi-uncial.</p>
+                        </scriptDesc>
+                        <scribeLang>
+                            <orthography>
+                                <p>Bulgarian two-jer and two-jus orthography.</p>
+                            </orthography>
+                        </scribeLang>
+                    </scribe>
+                </scribeDesc>
+                <msContents>
+                    <summary>Contains the Titles and the Prefaces by Theophylaktos, archbishop of
                         Okhrid for each Gospel; the Synaxarion commemorates SS. Simeon and Sabbas of
                         Serbia. Contains also part of the Akathistos hymn in honour of the
-                        Theotokos.</summary></msContents><history><origin><origDate>15th c., 3rd quarter.</origDate><note>The MS is copied by the scribe who copied the so-called Skopie Menaion
-                            (Church Historical and Archival Institute, Sofia, 489) and part of the
-                            Miscellany with works for St. John of Rila from the 2nd half of the 15th
-                            c. (Rila Monastery, 1/26). <bibl><ref>Славянские рукописи Афонских обителей 1999: 81, №
-                                169.</ref></bibl></note></origin></history></msDesc></body></text></TEI>
+                        Theotokos.</summary>
+                </msContents>
+                <history>
+                    <origin><origDate>15th c., 3rd quarter.</origDate><note>The MS is copied by the
+                            scribe who copied the so-called Skopie Menaion (Church Historical and
+                            Archival Institute, Sofia, 489) and part of the Miscellany with works
+                            for St. John of Rila from the 2nd half of the 15th c. (Rila Monastery,
+                            1/26). <bibl><ref>Славянские рукописи Афонских обителей 1999: 81, №
+                                    169.</ref></bibl></note></origin>
+                </history>
+            </msDesc>
+        </body>
+    </text>
+</TEI>

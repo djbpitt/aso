@@ -1,7 +1,98 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader><fileDesc><titleStmt><title>Tetraevangelion of Dobromir, Sin.Slav.7/N, Monastery of St. Catherine, Mt. Sinai, 12th
-     c., beginning.</title><author>Dilyana Radoslavova</author></titleStmt><publicationStmt><publisher>Institute of Literature</publisher><pubPlace>Sofia</pubPlace><date>2013.</date></publicationStmt><sourceDesc><p>Printed catalogues.</p></sourceDesc></fileDesc><profileDesc><langUsage><language ident="en">English</language><language ident="bg">Bulgarian</language></langUsage><textClass><keywords scheme="Repertorium"><list><item>Tetraevangelion</item><item>Four Gospels</item><item>Bible books</item></list></keywords></textClass></profileDesc></teiHeader><text><body><msDesc><msIdentifier><msName type="general">Tetraevangelion; </msName><msName type="individual">Tetraevangelion of Dobromir.</msName><country>Egypt,</country><settlement>Sinai, Mt.,</settlement><repository>Monastery of St. Catherine,</repository><idno type="shelfmark">Sin.Slav.7/N,</idno><idno type="catalogue">7/N,</idno><collection>New Collection.</collection><note><listBibl><bibl><ref>Tarnanidis 1988: 111-112.</ref></bibl></listBibl></note></msIdentifier><physDesc><objectDesc form="fragment"><supportDesc material="parch"><support><material>Parchment.</material></support><extent>9 ff.</extent><condition>This fragment is part of the so-called Dobromir Gospel, now in Sankt Petersburg,
-        Russian National Library, Q.p.I 55 (183 ff.). Other fragments are kept in the Old Collection
-        at the Monastery of St. Catherine, Mount Sinai (MS 43, 23 ff.) and The National Library in
-        Paris (Slav.65, 2 ff.).</condition></supportDesc><layoutDesc><layout columns="1" writtenLines="20">In 1 column, 20 lines per page.</layout></layoutDesc></objectDesc></physDesc><scribeDesc xmlns="http://www.ilit.bas.bg/repertorium/ns/3.0"><scribe><name xmlns="http://www.tei-c.org/ns/1.0">Scribe A.</name><scriptDesc script="cyrs"><p xmlns="http://www.tei-c.org/ns/1.0">Cyrillic majuscul. </p></scriptDesc><scribeLang><p xmlns="http://www.tei-c.org/ns/1.0">Old Bulgarian with Middle Bulgarian features.</p></scribeLang><note xmlns="http://www.tei-c.org/ns/1.0">The scribe was the one who copied the main part of
-       the Tetraevangelion; identified by Velčeva (see Велчева 1975: 11) as Scribe A.</note></scribe></scribeDesc><msContents><summary>Contains Matthew 21:24-24:3; 27:48-64.</summary></msContents><history><origin><origDate>12th c., beginning.</origDate></origin></history><additional><listBibl><bibl><ref>Altbauer 1973; </ref><ref>Велчева 1975; </ref><ref>Станчев 1981; </ref><ref>Угринова-Скалевска и Десподова 1992; </ref><ref>Старобългарска литература 2003: 142-143.</ref></bibl></listBibl></additional></msDesc></body></text></TEI>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tetraevangelion of Dobromir, Sin.Slav.7/N, Monastery of St. Catherine, Mt. Sinai,
+               12th c., beginning.</title>
+            <author>Dilyana Radoslavova</author>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Institute of Literature</publisher>
+            <pubPlace>Sofia</pubPlace>
+            <date>2013.</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Printed catalogues.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="bg">Bulgarian</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="Repertorium">
+               <list>
+                  <item>Tetraevangelion</item>
+                  <item>Four Gospels</item>
+                  <item>Bible books</item>
+               </list>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <msDesc>
+            <msIdentifier>
+               <msName type="general">Tetraevangelion; </msName>
+               <msName type="individual">Tetraevangelion of Dobromir.</msName>
+               <country>Egypt,</country>
+               <settlement>Sinai, Mt.,</settlement>
+               <repository>Monastery of St. Catherine,</repository>
+               <idno type="shelfmark">Sin.Slav.7/N,</idno>
+               <idno type="catalogue">7/N,</idno>
+               <collection>New Collection.</collection>
+               <note><listBibl>
+                     <bibl><ref>Tarnanidis 1988: 111-112.</ref></bibl>
+                  </listBibl></note>
+            </msIdentifier>
+            <physDesc>
+               <objectDesc form="fragment">
+                  <supportDesc material="parch">
+                     <support><material>Parchment.</material></support>
+                     <extent>9 ff.</extent>
+                     <condition>This fragment is part of the so-called Dobromir Gospel, now in Sankt
+                        Petersburg, Russian National Library, Q.p.I 55 (183 ff.). Other fragments
+                        are kept in the Old Collection at the Monastery of St. Catherine, Mount
+                        Sinai (MS 43, 23 ff.) and The National Library in Paris (Slav.65, 2
+                        ff.).</condition>
+                  </supportDesc>
+                  <layoutDesc>
+                     <layout columns="1" writtenLines="20">In 1 column, 20 lines per page.</layout>
+                  </layoutDesc>
+               </objectDesc>
+            </physDesc>
+            <scribeDesc xmlns="http://www.ilit.bas.bg/repertorium/ns/3.0">
+               <scribe>
+                  <name xmlns="http://www.tei-c.org/ns/1.0">Scribe A.</name>
+                  <scriptDesc script="cyrs">
+                     <p xmlns="http://www.tei-c.org/ns/1.0">Cyrillic majuscul. </p>
+                  </scriptDesc>
+                  <scribeLang>
+                     <p xmlns="http://www.tei-c.org/ns/1.0">Old Bulgarian with Middle Bulgarian
+                        features.</p>
+                  </scribeLang>
+                  <note xmlns="http://www.tei-c.org/ns/1.0">The scribe was the one who copied the
+                     main part of the Tetraevangelion; identified by Velčeva (see Велчева 1975: 11)
+                     as Scribe A.</note>
+               </scribe>
+            </scribeDesc>
+            <msContents>
+               <summary>Contains Matthew 21:24-24:3; 27:48-64.</summary>
+            </msContents>
+            <history>
+               <origin><origDate>12th c., beginning.</origDate></origin>
+            </history>
+            <additional>
+               <listBibl>
+                  <bibl><ref>Altbauer 1973; </ref><ref>Велчева 1975; </ref><ref>Станчев 1981;
+                        </ref><ref>Угринова-Скалевска и Десподова 1992; </ref><ref>Старобългарска
+                        литература 2003: 142-143.</ref></bibl>
+               </listBibl>
+            </additional>
+         </msDesc>
+      </body>
+   </text>
+</TEI>

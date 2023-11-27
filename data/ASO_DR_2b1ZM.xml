@@ -1,7 +1,105 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader><fileDesc><titleStmt><title>Psalter of Avram Dimitrievich, II.b.1, Monastery of Zographou, Mt. Athos; and
-                    F. I. 589, Russian National Library, Sankt Petersburg, 1669.</title><author>Dilyana Radoslavova</author></titleStmt><publicationStmt><publisher>Institute of Literature</publisher><pubPlace>Sofia</pubPlace><date>2013.</date></publicationStmt><sourceDesc><p>Printed catalogues.</p></sourceDesc></fileDesc><profileDesc><langUsage><language ident="en">English</language><language ident="bg">Bulgarian</language><language ident="ru">Russian</language></langUsage><textClass><keywords scheme="Repertorium"><list><item>Psalter</item><item>Bible books</item><item>Liturgical books</item></list></keywords></textClass></profileDesc></teiHeader><text><body><msDesc><msIdentifier><msName type="general">Psalter;</msName><msName type="individual">Psalter of Avraam Dimitrievich.</msName><country>Greece,</country><settlement>Athos, Mt.,</settlement><repository>Monastery of Zographou,</repository><idno type="shelfmark">Zographou II.b.1, </idno><idno type="catalogue">79.</idno><note><listBibl><bibl><ref>Ильинский 1908: 59; </ref><ref>Каталог 1994: 79.</ref></bibl></listBibl></note><altIdentifier><country>Russia,</country><settlement>Sankt Petersburg,</settlement><repository>Russian National Library,</repository><idno type="shelfmark">F. I. 589,</idno><note><bibl><ref>Каталог 1994: 79.</ref></bibl></note></altIdentifier></msIdentifier><physDesc><objectDesc form="codex"><supportDesc material="paper"><support><material>Paper.</material></support><extent>154 ff.</extent></supportDesc><layoutDesc><layout writtenLines="21" columns="1">In 1 column, 21 lines per
-                                page.</layout></layoutDesc></objectDesc><decoDesc><p>Richly ornamented with fine interlaced headpieces and initials.</p></decoDesc></physDesc><scribeDesc xmlns="http://www.ilit.bas.bg/repertorium/ns/3.0"><scribe><name>Avram Dimitrievich.</name><scriptDesc><p xmlns="http://www.tei-c.org/ns/1.0">Fine large semi-uncial of
-                                Srednogorie type.</p></scriptDesc><scribeLang><orthography><p xmlns="http://www.tei-c.org/ns/1.0">Resava orthography.</p></orthography></scribeLang></scribe></scribeDesc><history><origin><origDate>1669.</origDate><origPlace>Karlovo, Bulgaria.</origPlace></origin><provenance>The lief with the copyist inscription was taken by Porfirij
-                        Uspenskij and is now kept in Sankt Petersburg (Russian National Library, F.
-                        I. 589).</provenance></history></msDesc></body></text></TEI>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+        <teiHeader>
+                <fileDesc>
+                        <titleStmt>
+                                <title>Psalter of Avram Dimitrievich, II.b.1, Monastery of
+                                        Zographou, Mt. Athos; and F. I. 589, Russian National
+                                        Library, Sankt Petersburg, 1669.</title>
+                                <author>Dilyana Radoslavova</author>
+                                <editor>David J. Birnbaum</editor>
+                        </titleStmt>
+                        <publicationStmt>
+                                <publisher>Institute of Literature</publisher>
+                                <pubPlace>Sofia</pubPlace>
+                                <date>2013.</date>
+                        </publicationStmt>
+                        <sourceDesc>
+                                <p>Printed catalogues.</p>
+                        </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                        <langUsage>
+                                <language ident="en">English</language>
+                                <language ident="bg">Bulgarian</language>
+                                <language ident="ru">Russian</language>
+                        </langUsage>
+                        <textClass>
+                                <keywords scheme="Repertorium">
+                                        <list>
+                                                <item>Psalter</item>
+                                                <item>Bible books</item>
+                                                <item>Liturgical books</item>
+                                        </list>
+                                </keywords>
+                        </textClass>
+                </profileDesc>
+        </teiHeader>
+        <text>
+                <body>
+                        <msDesc>
+                                <msIdentifier>
+                                        <msName type="general">Psalter;</msName>
+                                        <msName type="individual">Psalter of Avraam
+                                                Dimitrievich.</msName>
+                                        <country>Greece,</country>
+                                        <settlement>Athos, Mt.,</settlement>
+                                        <repository>Monastery of Zographou,</repository>
+                                        <idno type="shelfmark">Zographou II.b.1, </idno>
+                                        <idno type="catalogue">79.</idno>
+                                        <note><listBibl>
+                                                  <bibl><ref>Ильинский 1908: 59; </ref><ref>Каталог
+                                                  1994: 79.</ref></bibl>
+                                                </listBibl></note>
+                                        <altIdentifier>
+                                                <country>Russia,</country>
+                                                <settlement>Sankt Petersburg,</settlement>
+                                                <repository>Russian National Library,</repository>
+                                                <idno type="shelfmark">F. I. 589,</idno>
+                                                <note><bibl><ref>Каталог 1994:
+                                                  79.</ref></bibl></note>
+                                        </altIdentifier>
+                                </msIdentifier>
+                                <physDesc>
+                                        <objectDesc form="codex">
+                                                <supportDesc material="paper">
+                                                  <support><material>Paper.</material></support>
+                                                  <extent>154 ff.</extent>
+                                                </supportDesc>
+                                                <layoutDesc>
+                                                  <layout writtenLines="21" columns="1">In 1 column,
+                                                  21 lines per page.</layout>
+                                                </layoutDesc>
+                                        </objectDesc>
+                                        <decoDesc>
+                                                <p>Richly ornamented with fine interlaced headpieces
+                                                  and initials.</p>
+                                        </decoDesc>
+                                </physDesc>
+                                <scribeDesc xmlns="http://www.ilit.bas.bg/repertorium/ns/3.0">
+                                        <scribe>
+                                                <name>Avram Dimitrievich.</name>
+                                                <scriptDesc>
+                                                  <p xmlns="http://www.tei-c.org/ns/1.0">Fine large
+                                                  semi-uncial of Srednogorie type.</p>
+                                                </scriptDesc>
+                                                <scribeLang>
+                                                  <orthography>
+                                                  <p xmlns="http://www.tei-c.org/ns/1.0">Resava
+                                                  orthography.</p>
+                                                  </orthography>
+                                                </scribeLang>
+                                        </scribe>
+                                </scribeDesc>
+                                <history>
+                                        <origin><origDate>1669.</origDate><origPlace>Karlovo,
+                                                  Bulgaria.</origPlace></origin>
+                                        <provenance>The leaf with the copyist inscription was taken
+                                                by Porfirij Uspenskij and is now kept in Sankt
+                                                Petersburg (Russian National Library, F. I.
+                                                589).</provenance>
+                                </history>
+                        </msDesc>
+                </body>
+        </text>
+</TEI>

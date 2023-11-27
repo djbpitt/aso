@@ -51,7 +51,7 @@ declare function local:process-identifier($input as element()) as element(m:iden
         {$catalog ! <m:catalog>{.}</m:catalog>}
         {$collection ! <m:collection>{.}</m:collection>}
       </m:location>
-      {$note ! <m:idNote>{.}</m:idNote>}    
+      {$note ! <m:idNote>{.}</m:idNote>}
     </m:identifier>
 };
 
@@ -66,7 +66,12 @@ declare function local:process-identifier($input as element()) as element(m:iden
   </m:identifiers>
   <m:physDesc>{
       $ms/descendant::tei:physDesc/descendant::tei:support ! <m:material>{local:normalize(.)}</m:material>,
-      $ms/descendant::tei:physDesc/descendant::tei:extent ! <m:extent>{local:normalize(.)}</m:extent>,
+      $ms/descendant::tei:physDesc/descendant::tei:extent ! <m:extent>{
+          if (tei:dimensions) then
+            concat(tei:dimensions/tei:height, tei:dimensions/tei:height/@unit, " x ", tei:dimensions/tei:width, tei:dimensions/tei:width/@unit)
+          else
+            local:normalize(.)
+        }</m:extent>,
       $ms/descendant::tei:physDesc/descendant::tei:layoutDesc ! <m:layout>{string-join(tei:layout, ' ')}</m:layout>,
       $ms/descendant::tei:physDesc/descendant::tei:condition ! <m:condition>{string-join(., ' ')}</m:condition>,
       $ms/descendant::tei:physDesc/descendant::tei:decoDesc ! <m:decoration>{string(.)}</m:decoration>,

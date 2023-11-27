@@ -1,5 +1,86 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader><fileDesc><titleStmt><title>Menaion, Sin.Slav.33/N, Monastery of St. Catherine, Mt. Sinai, 14th c.</title><author>Dilyana Radoslavova</author></titleStmt><publicationStmt><publisher>Institute of Literature</publisher><pubPlace>Sofia</pubPlace><date>2013.</date></publicationStmt><sourceDesc><p>Printed catalogues.</p></sourceDesc></fileDesc><profileDesc><langUsage><language ident="en">English</language></langUsage><textClass><keywords scheme="Repertorium"><list><item>Menaion</item><item>Liturgical books</item><item>Hymnography</item></list></keywords></textClass></profileDesc></teiHeader><text><body><msDesc><msIdentifier><msName type="general">Menaion.</msName><country>Egypt,</country><settlement>Sinai, Mt.,</settlement><repository>Monastery of St. Catherine,</repository><idno type="shelfmark">Sin.Slav.33/N,</idno><idno type="catalogue">33/N,</idno><collection>New Collection.</collection><note><bibl><ref>Tarnanidis 1988: 172-173.</ref></bibl></note></msIdentifier><physDesc><objectDesc form="fragment"><supportDesc material="paper"><support><material>Paper.</material></support><extent>5 ff.</extent></supportDesc><layoutDesc><layout columns="1" writtenLines="26">In 1 column, 26-27 lines per page.</layout></layoutDesc></objectDesc><decoDesc><p>Red initials.</p></decoDesc></physDesc><scribeDesc xmlns="http://www.ilit.bas.bg/repertorium/ns/3.0"><scribe><name xmlns="http://www.tei-c.org/ns/1.0">Anonymous.</name><scriptDesc script="cyrs"><p xmlns="http://www.tei-c.org/ns/1.0">Cyrillic majuscule.</p></scriptDesc><scribeLang><orthography><p xmlns="http://www.tei-c.org/ns/1.0">Serbian orthography.</p></orthography></scribeLang><note xmlns="http://www.tei-c.org/ns/1.0">The scribe might belong to the Serbian scriptoria on
-       Mt. Athos that worked under the guidance of monk Job.</note></scribe></scribeDesc><msContents><summary>Contains part of the Services for St. Silvester, pope of Rome (2 January), for the
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>Menaion, Sin.Slav.33/N, Monastery of St. Catherine, Mt. Sinai, 14th c.</title>
+    <author>Dilyana Radoslavova</author>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>Institute of Literature</publisher>
+    <pubPlace>Sofia</pubPlace>
+    <date>2013.</date>
+   </publicationStmt>
+   <sourceDesc>
+    <p>Printed catalogues.</p>
+   </sourceDesc>
+  </fileDesc>
+  <profileDesc>
+   <langUsage>
+    <language ident="en">English</language>
+   </langUsage>
+   <textClass>
+    <keywords scheme="Repertorium">
+     <list>
+      <item>Menaion</item>
+      <item>Liturgical books</item>
+      <item>Hymnography</item>
+     </list>
+    </keywords>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text>
+  <body>
+   <msDesc>
+    <msIdentifier>
+     <msName type="general">Menaion.</msName>
+     <country>Egypt,</country>
+     <settlement>Sinai, Mt.,</settlement>
+     <repository>Monastery of St. Catherine,</repository>
+     <idno type="shelfmark">Sin.Slav.33/N,</idno>
+     <idno type="catalogue">33/N,</idno>
+     <collection>New Collection.</collection>
+     <note><bibl><ref>Tarnanidis 1988: 172-173.</ref></bibl></note>
+    </msIdentifier>
+    <physDesc>
+     <objectDesc form="fragment">
+      <supportDesc material="paper">
+       <support><material>Paper.</material></support>
+       <extent>5 ff.</extent>
+      </supportDesc>
+      <layoutDesc>
+       <layout columns="1" writtenLines="26">In 1 column, 26-27 lines per page.</layout>
+      </layoutDesc>
+     </objectDesc>
+     <decoDesc>
+      <p>Red initials.</p>
+     </decoDesc>
+    </physDesc>
+    <scribeDesc xmlns="http://www.ilit.bas.bg/repertorium/ns/3.0">
+     <scribe>
+      <name xmlns="http://www.tei-c.org/ns/1.0">Anonymous.</name>
+      <scriptDesc script="cyrs">
+       <p xmlns="http://www.tei-c.org/ns/1.0">Cyrillic majuscule.</p>
+      </scriptDesc>
+      <scribeLang>
+       <orthography>
+        <p xmlns="http://www.tei-c.org/ns/1.0">Serbian orthography.</p>
+       </orthography>
+      </scribeLang>
+      <note xmlns="http://www.tei-c.org/ns/1.0">The scribe might belong to the Serbian scriptoria on
+       Mt. Athos that worked under the guidance of monk Job.</note>
+     </scribe>
+    </scribeDesc>
+    <msContents>
+     <summary>Contains part of the Services for St. Silvester, pope of Rome (2 January), for the
       Feats of Beheading of John the Baptist (29 August), and for the Deposition of Theotokos's
-      Girdle (31 August).</summary></msContents><history><origin><origDate>14th c.</origDate></origin></history></msDesc></body></text></TEI>
+      Girdle (31 August).</summary>
+    </msContents>
+    <history>
+     <origin><origDate>14th c.</origDate></origin>
+    </history>
+   </msDesc>
+  </body>
+ </text>
+</TEI>
