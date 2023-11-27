@@ -26,6 +26,7 @@
     <h3>
       <xsl:apply-templates select="location"/>
     </h3>
+    <xsl:apply-templates select="idNote"/>
   </xsl:template>
   <xsl:template match="location">
     <xsl:value-of select="string-join((country, settlement, repository, shelfmark), ', ') || '. '"/>
@@ -37,6 +38,12 @@
     </span>
     <xsl:apply-templates/>
     <xsl:text>. </xsl:text>
+  </xsl:template>
+  <xsl:template match="idNote">
+    <p>
+      <span class="label">Note: </span>
+      <xsl:apply-templates/>
+    </p>
   </xsl:template>
   <xsl:template match="identifiers/identifier">
     <!-- ================================================================ -->
@@ -113,7 +120,7 @@
       <xsl:apply-templates/>
     </p>
   </xsl:template>
-  
+
   <!-- ================================================================== -->
   <!-- Contents                                                           -->
   <!-- ================================================================== -->

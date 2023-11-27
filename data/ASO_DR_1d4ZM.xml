@@ -1,4 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader><fileDesc><titleStmt><title>Triodion of Gruban, I.d.4, Monastery of Zographou, Mt. Athos, 13th c., 2nd
-                    half. </title><author>Dilyana Radoslavova</author></titleStmt><publicationStmt><publisher>Institute of Literature</publisher><pubPlace>Sofia</pubPlace><date>2013.</date></publicationStmt><sourceDesc><p>Printed catalogues.</p></sourceDesc></fileDesc><profileDesc><langUsage><language ident="en">English</language><language ident="bg">Bulgarian</language><language ident="ru">Russian</language></langUsage><textClass><keywords scheme="Repertorium"><list><item>Triodion</item><item>Liturgical books</item><item>Hymnography</item></list></keywords></textClass></profileDesc></teiHeader><text><body><msDesc><msIdentifier><msName type="general">Triodion;</msName><msName type="individual">Triodion of Gruban.</msName><country>Greece,</country><settlement>Athos, Mt.,</settlement><repository>Monastery of Zographou,</repository><idno type="shelfmark">Zographou I.d.4,</idno><idno type="catalogue">39.</idno><note><listBibl><bibl><ref>Ильинский 1908: 74</ref>; <ref>Каталог 1994: 39.</ref></bibl></listBibl></note></msIdentifier><physDesc><objectDesc form="codex"><supportDesc material="parch"><support><material>Parchment.</material></support><extent>96 ff.</extent></supportDesc></objectDesc></physDesc><scribeDesc xmlns="http://www.ilit.bas.bg/repertorium/ns/3.0"><scribe><name xmlns="http://www.tei-c.org/ns/1.0">Priest Gruban.</name><scriptDesc><p xmlns="http://www.tei-c.org/ns/1.0">Small uncial. </p></scriptDesc><scribeLang><orthography><p xmlns="http://www.tei-c.org/ns/1.0">Bulgarian jus
-                                    orthography.</p></orthography></scribeLang></scribe></scribeDesc><msContents><note>The scribal note is to be found on f. 60v.</note></msContents><history><origin><origDate>13th c., 2nd half.</origDate></origin></history></msDesc></body></text></TEI>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+                <teiHeader>
+                                <fileDesc>
+                                                <titleStmt>
+                                                  <title>Triodion of Gruban, I.d.4, Monastery of
+                                                  Zographou, Mt. Athos, 13th c., 2nd half. </title>
+                                                  <author>Dilyana Radoslavova</author>
+                                                </titleStmt>
+                                                <publicationStmt>
+                                                  <publisher>Institute of Literature</publisher>
+                                                  <pubPlace>Sofia</pubPlace>
+                                                  <date>2013.</date>
+                                                </publicationStmt>
+                                                <sourceDesc>
+                                                  <p>Printed catalogues.</p>
+                                                </sourceDesc>
+                                </fileDesc>
+                                <profileDesc>
+                                                <langUsage>
+                                                  <language ident="en">English</language>
+                                                  <language ident="bg">Bulgarian</language>
+                                                  <language ident="ru">Russian</language>
+                                                </langUsage>
+                                                <textClass>
+                                                  <keywords scheme="Repertorium">
+                                                  <list>
+                                                  <item>Triodion</item>
+                                                  <item>Liturgical books</item>
+                                                  <item>Hymnography</item>
+                                                  </list>
+                                                  </keywords>
+                                                </textClass>
+                                </profileDesc>
+                </teiHeader>
+                <text>
+                                <body>
+                                                <msDesc>
+                                                  <msIdentifier>
+                                                  <msName type="general">Triodion;</msName>
+                                                  <msName type="individual">Triodion of
+                                                  Gruban.</msName>
+                                                  <country>Greece,</country>
+                                                  <settlement>Athos, Mt.,</settlement>
+                                                  <repository>Monastery of Zographou,</repository>
+                                                  <idno type="shelfmark">Zographou I.d.4,</idno>
+                                                  <idno type="catalogue">39.</idno>
+                                                  <note><listBibl>
+                                                  <bibl><ref>Ильинский 1908: 74</ref>; <ref>Каталог
+                                                  1994: 39.</ref></bibl>
+                                                  </listBibl></note>
+                                                  </msIdentifier>
+                                                  <physDesc>
+                                                  <objectDesc form="codex">
+                                                  <supportDesc material="parch">
+                                                  <support><material>Parchment.</material></support>
+                                                  <extent>96 ff.</extent>
+                                                  </supportDesc>
+                                                  </objectDesc>
+                                                  </physDesc>
+                                                  <scribeDesc
+                                                  xmlns="http://www.ilit.bas.bg/repertorium/ns/3.0">
+                                                  <scribe>
+                                                  <name xmlns="http://www.tei-c.org/ns/1.0">Priest
+                                                  Gruban.</name>
+                                                  <scriptDesc>
+                                                  <p xmlns="http://www.tei-c.org/ns/1.0">Small
+                                                  uncial. </p>
+                                                  </scriptDesc>
+                                                  <scribeLang>
+                                                  <orthography>
+                                                  <p xmlns="http://www.tei-c.org/ns/1.0">Bulgarian
+                                                  jus orthography.</p>
+                                                  </orthography>
+                                                  </scribeLang>
+                                                  </scribe>
+                                                  </scribeDesc>
+                                                  <msContents>
+                                                  <note>The scribal note is to be found on f.
+                                                  60v.</note>
+                                                  </msContents>
+                                                  <history>
+                                                  <origin><origDate>13th c., 2nd
+                                                  half.</origDate></origin>
+                                                  </history>
+                                                </msDesc>
+                                </body>
+                </text>
+</TEI>

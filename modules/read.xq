@@ -35,6 +35,7 @@ declare function local:process-identifier($input as element()) as element(m:iden
   let $shelfmark as xs:string? := $input/tei:idno[@type eq 'shelfmark'] ! local:normalize(.)
   let $catalog as xs:string? := $input/tei:idno[@type eq 'catalogue'] ! local:normalize(.)
   let $collection as xs:string? := $input/tei:collection ! local:normalize(.)
+  let $note as xs:string? := $input/tei:note[text()[string-length(normalize-space(.)) gt 0]] ! local:normalize(.)
   return
     <m:identifier>{
         if (exists($names)) then
@@ -50,6 +51,7 @@ declare function local:process-identifier($input as element()) as element(m:iden
         {$catalog ! <m:catalog>{.}</m:catalog>}
         {$collection ! <m:collection>{.}</m:collection>}
       </m:location>
+      {$note ! <m:idNote>{.}</m:idNote>}    
     </m:identifier>
 };
 
@@ -86,9 +88,9 @@ declare function local:process-identifier($input as element()) as element(m:iden
             else
               ()
           }</m:scribe>,
-          for $note in $ms/descendant::*:scribeDesc/descendant::*:note
-          return
-            <m:scribeNote>{local:normalize($note)}</m:scribeNote>
+      for $note in $ms/descendant::*:scribeDesc/descendant::*:note
+      return
+        <m:scribeNote>{local:normalize($note) || "."}</m:scribeNote>
     }</m:scribes>
   <m:contents>{string($ms/descendant::*:msContents)}</m:contents>
   {
