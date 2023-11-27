@@ -1,6 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader><fileDesc><titleStmt><title>Liturgical roll of Patriarch Euthymios, Cat. № 103, Monastery of Zographou,
-                    Mt. Athos, 14th c., end.</title><author>Dilyana Radoslavova</author></titleStmt><publicationStmt><publisher>Institute of Literature</publisher><pubPlace>Sofia</pubPlace><date>2013.</date></publicationStmt><sourceDesc><p>Printed catalogues.</p></sourceDesc></fileDesc><profileDesc><langUsage><language ident="en">English</language><language ident="bg">Bulgarian</language><language ident="ru">Russian</language></langUsage><textClass><keywords scheme="Repertorium"><list><item>Liturgical books</item><item>Leitourgikon</item><item>Liturgy</item><item>St. Patriarch Euthymios</item></list></keywords></textClass></profileDesc></teiHeader><text><body><msDesc><msIdentifier><msName type="general">Leitourgikon.</msName><msName type="individual">Liturgical roll of Patriarch Euthymios.</msName><country>Greece,</country><settlement>Athos, Mt.,</settlement><repository>Monastery of Zographou,</repository><idno type="shelfmark">none.</idno><idno type="catalogue">103</idno><note><listBibl><bibl><ref>Ильинский 1908: 120; </ref><ref>Каталог 1994: 103.</ref></bibl></listBibl></note></msIdentifier><physDesc><objectDesc form="roll"><supportDesc material="parch"><support><material>Liturgical roll of 8 parchment
-                                pieces.</material></support><extent><dimensions type="folia" unit="mm"><height unit="mm">3420</height><width unit="mm">130</width></dimensions></extent></supportDesc></objectDesc></physDesc><scribeDesc xmlns="http://www.ilit.bas.bg/repertorium/ns/3.0"><scribe><name>Anonymous.</name><scriptDesc><p xmlns="http://www.tei-c.org/ns/1.0">Middle semi-uncial.</p></scriptDesc><scribeLang><orthography><p xmlns="http://www.tei-c.org/ns/1.0">Bulgarian two-jus and two-jer
-                                    orthography.</p></orthography></scribeLang></scribe></scribeDesc><msContents><summary>The name of Patriarch Euthymios is mentioned in the very beginning of
-                        the MS.</summary></msContents><history><origin><origDate>14th c., end.</origDate></origin></history></msDesc></body></text></TEI>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Liturgical roll of Patriarch Euthymios, Cat. № 103, Monastery of Zographou,
+                    Mt. Athos, 14th c., end.</title>
+                <author>Dilyana Radoslavova</author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Institute of Literature</publisher>
+                <pubPlace>Sofia</pubPlace>
+                <date>2013.</date>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Printed catalogues.</p>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="bg">Bulgarian</language>
+                <language ident="ru">Russian</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="Repertorium">
+                    <list>
+                        <item>Liturgical books</item>
+                        <item>Leitourgikon</item>
+                        <item>Liturgy</item>
+                        <item>St. Patriarch Euthymios</item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <msDesc>
+                <msIdentifier>
+                    <msName type="general">Leitourgikon.</msName>
+                    <msName type="individual">Liturgical roll of Patriarch Euthymios.</msName>
+                    <country>Greece,</country>
+                    <settlement>Athos, Mt.,</settlement>
+                    <repository>Monastery of Zographou,</repository>
+                    <idno type="shelfmark">none.</idno>
+                    <idno type="catalogue">103</idno>
+                    <note><listBibl>
+                            <bibl><ref>Ильинский 1908: 120; </ref><ref>Каталог 1994:
+                                103.</ref></bibl>
+                        </listBibl></note>
+                </msIdentifier>
+                <physDesc>
+                    <objectDesc form="roll">
+                        <supportDesc material="parch">
+                            <support><material>Liturgical roll of 8 parchment
+                                pieces.</material></support>
+                            <extent><dimensions type="folia" unit="mm">
+                                    <height unit="mm">3420</height>
+                                    <width unit="mm">130</width>
+                                </dimensions></extent>
+                        </supportDesc>
+                    </objectDesc>
+                </physDesc>
+                <scribeDesc xmlns="http://www.ilit.bas.bg/repertorium/ns/3.0">
+                    <scribe>
+                        <name>Anonymous.</name>
+                        <scriptDesc>
+                            <p xmlns="http://www.tei-c.org/ns/1.0">Middle semi-uncial.</p>
+                        </scriptDesc>
+                        <scribeLang>
+                            <orthography>
+                                <p xmlns="http://www.tei-c.org/ns/1.0">Bulgarian two-jus and two-jer
+                                    orthography.</p>
+                            </orthography>
+                        </scribeLang>
+                    </scribe>
+                </scribeDesc>
+                <msContents>
+                    <summary>The name of Patriarch Euthymios is mentioned in the very beginning of
+                        the MS.</summary>
+                </msContents>
+                <history>
+                    <origin><origDate>14th c., end.</origDate></origin>
+                </history>
+            </msDesc>
+        </body>
+    </text>
+</TEI>

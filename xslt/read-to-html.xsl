@@ -10,9 +10,9 @@
   </xsl:function>
   <xsl:template match="main">
     <main id="read">
-      <xsl:apply-templates select="msIdentifier"/>
+      <xsl:apply-templates select="identifiers"/>
       <table>
-        <xsl:apply-templates select="* except msIdentifier"/>
+        <xsl:apply-templates select="* except identifiers"/>
       </table>
     </main>
   </xsl:template>
